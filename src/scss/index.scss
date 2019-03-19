@@ -1,0 +1,2077 @@
+@charset "UTF-8";
+
+/* CSS document */
+
+.nav1 .navbar-toggle2 {
+    border: 1px solid #3C3C3C;
+    span {
+        background-color: #262626;
+    }
+}
+
+.nva1-tonglang {
+    background-color: ghostwhite;
+}
+
+.nav1 {
+    background-color: ghostwhite;
+    height: 80px;
+    padding-left:0 !important;
+    padding-right:0 !important;
+    .bjys {
+        height: 100%;
+    }
+    .nav1-logo {
+        float: left;
+        height: 100%;
+        width: 150px;
+        //      background-color: red;
+        a {
+            img {
+                width: 100%;
+                height: 100%;
+            } //img
+        } //a
+        h1 {
+            text-indent: -9999px;
+            ;
+        } //h1
+    } //nav1-logo
+    .nav1-search {
+        position: relative;
+        float: left;
+        margin: 15px 0 0 218px;
+        width: 488px;
+        height: 50px;
+        line-height: 50px !important;
+        border-radius: 38px;
+        background-color: #E0E0E0;
+        overflow: hidden;
+        div {
+            width: 386px;
+            display: inline-block;
+            input {
+                background-color: #E0E0E0;
+                height: 30px;
+                width: 368px;
+                margin-left: 18px;
+                border: 0;
+                outline: none;
+            } //input
+        }
+        button {
+            text-indent: 1em;
+            outline: none;
+            font-size: 18px;
+            color: #fff;
+            width: 98px;
+            border-top-right-radius: 38px;
+            border-bottom-right-radius: 38px;
+            border: 0;
+            background-color: #f10215;
+        } //button
+        .nav1-search-icon1 {
+            position: absolute;
+            top: 15px;
+            right: 68px;
+            font-size: 22px;
+            color: #fff;
+        }
+        .nav1-search-icon2 {
+            position: absolute;
+            top: 15px;
+            right: 108px;
+            font-size: 22px;
+            color: #8C8C8C;
+        }
+    } //nav1-search
+    .nav1-r-nav {
+        margin-top: 15px;
+        float: right;
+        width: 280px;
+        height: 50px;
+        line-height: 50px;
+        //      background-color:yellow;
+        div {
+            position: relative;
+            text-align: center;
+            height: 50px;
+            line-height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            background-color: #f10215;
+            float: left;
+            margin-left: 20px;
+            &:hover {
+                transform: scale(1.2);
+            }
+            span {
+                color: #fff;
+                left: 12px;
+                position: absolute;
+                font-size: 14px;
+                a {
+                    text-decoration: none;
+                    color: #fff;
+                }
+            }
+            .nav1-search-span1 {
+                top: -8px;
+            }
+            .nav1-search-span2 {
+                top: 8px;
+            }
+        } //div
+    } //nav1-r-nav
+} //nav1
+//二级导航开始
+.nav2-tonglang {
+    background-color: #303030;
+    height: 60px;
+    .nav2 {
+        //      background-color: yellow;
+        padding-left:0 !important;
+        padding-right:0 !important;
+        height: 60px;
+        ul {
+            padding-left:0 !important;
+            float: left;
+            line-height: 58px;
+            li {
+                padding: 0 10px;
+                background-color: #262626;
+                margin-right: 20px;
+                float: left;
+                &:hover {
+                    transform: scale(1.2);
+                }
+                a {
+                    text-decoration: none;
+                    color: #fff;
+                    font-size: 20px;
+                }
+                i {
+                    font-size: 20px;
+                }
+            } //li
+        } //ul
+        .nav2-yh {
+            position: relative;
+            height: 60px;
+            line-height: 58px;
+            float: right;
+            .nav2-yh-jl {
+                height: 60px;
+                padding: 0 10px;
+                background-color: #262626;
+                float: left;
+                margin-right: 20px;
+                &:hover .nav2-yh-yc {
+                    display: block;
+                }
+                span {
+                    color: #fff;
+                    line-height: 60px;
+                    font-size: 20px;
+                } //span
+                i {
+                    color: #fff;
+                    font-size: 20px;
+                } //i
+                .nav2-yh-yc {
+                    height: 208px;
+                    width: 246px;
+                    border: 1px solid #e6e6e8;
+                    border-top: 0;
+                    background-color: #fff;
+                    position: absolute;
+                    top: 62px;
+                    right: 35px;
+                    display: none;
+                    z-index: 3;
+                } //nav2-yh-yc
+            } //nav2-yh-jl
+            .nav2-yh-dl {
+                padding: 0 10px;
+                background-color: red;
+                float: left;
+                &:hover {
+                    transform: scale(1.2);
+                }
+                a {
+                    text-decoration: none;
+                    color: #fff;
+                    font-size: 20px;
+                }
+                i {
+                    color: #fff;
+                    font-size: 20px;
+                }
+                span {
+                    font-size: 20px;
+                    color: #fff;
+                }
+            } //nav2-yh-dl
+        } //nav2-yh
+    } //nav2
+} //nav2-tonglang
+//二级导航结束
+//轮播图开始
+.lunbotu {
+    background-color: pink;
+    .lunbotu-icon {
+        color: #fff !important;
+    }
+    .lunbotu-tupian {
+        div {
+            width: 100%;
+            height: 100%;
+            a {
+                display: block;
+                width: 100%;
+                height: 100%;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
+
+//轮播图结束
+//最新电影开始
+.newMovie {
+    margin-top: 45px!important;
+    //  height: 378px;
+    background-color: #888888;
+    padding-left:0 !important;
+    padding-right:0 !important;
+    .newMovie-nav {
+        height: 48px;
+        background-color: #262626;
+        .newMovie-nav-l {
+            line-height: 48px;
+            float: left;
+            //      background-color: yellow;
+            height: 48px;
+            width: 195px;
+            .newMovie-nav-l-icon {
+                color: #fff;
+                font-size: 20px;
+                margin-top: 12px;
+            }
+            span {
+                margin: 9px 5px 0 0;
+                float: left;
+                display: block;
+                width: 15px;
+                height: 30px;
+                background-color: red;
+            } //span
+            h3 {
+                color: #fff;
+                margin: 0 0 0 5px;
+                line-height: 48px;
+                float: right;
+                display: block;
+                font-size: 23px;
+            } //h3
+        } //newMovie-nav-l
+        .newMovie-nav-r {
+            float: right;
+            height: 48px;
+            width: 68px;
+            margin-right: 10px;
+            //      background-color: yellow;
+            a {
+                font-style: 700;
+                font-size: 18px;
+                text-decoration: none;
+                color: #fff;
+                float: right;
+                display: block;
+                line-height: 48px;
+            }
+            .newMovie-nav-r-icon {
+                font-size: 22px;
+                color: #fff;
+                margin: 13px 0 0 5px;
+            }
+        } //newMovie-nav-r
+    } //newMovie-nav
+    .newMovie-tupian {
+        margin-top: -10px;
+        background-color: yellow;
+        ul {
+            padding-left: 20px;
+            li {
+                background-color: #fff;
+                border: 1px solid #9D9D9D;
+                float: left;
+                margin: 20px 20px 0 0;
+                width: 180px;
+                transition: all 3s;
+                &:hover {
+                    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
+                    transform: translatey(-20px);
+                    //                  transform: scale(1.2);
+                }
+                a {
+                    text-decoration: none;
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                    span {
+                        display: block;
+                        width: 100%;
+                        height: 100%;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    } //span
+                    h5 {
+                        color: #353434;
+                        text-indent: 1em;
+                        &:hover {
+                            color: red;
+                        }
+                    }
+                    p {
+                        color: #353434;
+                        text-indent: 0.5em;
+                    }
+                } //a
+            } //li
+        } //ul
+    } //newMovie-tupian
+} //newMovie
+//最新电影结束
+//热门电视剧开始
+.newTvPlay {
+    padding-left:0 !important;
+    padding-right:0 !important;
+    margin-top: 45px !important;
+    //  height: 560px;
+    background-color: #888888;
+    .newTvPlay-nav {
+        height: 48px;
+        background-color: #262626;
+        .newTvPlay-nav-l {
+            line-height: 48px;
+            float: left;
+            //      background-color: yellow;
+            height: 48px;
+            width: 168px;
+            .newTvPlay-nav-l-icon {
+                color: #fff;
+                font-size: 20px;
+                margin-top: 12px;
+            }
+            span {
+                margin: 9px 5px 0 0;
+                float: left;
+                display: block;
+                width: 15px;
+                height: 30px;
+                background-color: red;
+            } //span
+            h3 {
+                color: #fff;
+                margin: 0 0 0 5px;
+                line-height: 48px;
+                float: right;
+                display: block;
+                font-size: 23px;
+            } //h3
+        } //newTvPlay-nav-l
+        .newTvPlay-nav-r {
+            float: right;
+            height: 48px;
+            width: 68px;
+            margin-right: 10px;
+            //      background-color: yellow;
+            a {
+                font-style: 700;
+                font-size: 18px;
+                text-decoration: none;
+                color: #fff;
+                float: right;
+                display: block;
+                line-height: 48px;
+            }
+            .newTvPlay-nav-r-icon {
+                font-size: 22px;
+                color: #fff;
+                margin: 13px 0 0 5px;
+            }
+        } //newTvPlay-nav-r
+        .newTvPlay-nav-center {
+            float: left;
+            //          background-color: yellow;
+            height: 48px;
+            width: 264px;
+            margin-left: 648px;
+            .newTvPlay-nav-center-fl {
+                line-height: 48px;
+                position: relative;
+                .newTvPlay-nav-center-fl-a {
+                    float: left;
+                    text-align: center;
+                    display: block;
+                    height: 48px;
+                    width: 88px;
+                    background-color: #f10215;
+                    font-style: 700;
+                    text-decoration: none;
+                    font-size: 20px;
+                    color: #fff;
+                }
+                span {
+                    margin-top: 10px;
+                    float: left;
+                    display: block;
+                    height: 48px;
+                    padding: 0 20px;
+                    color: #fff;
+                }
+                .newTvPlay-nav-center-fl-span2 {
+                    &:hover .newTvPlay-nav-center-fl-yc2 {
+                        display: block;
+                    }
+                }
+                .newTvPlay-nav-center-fl-span1 {
+                    &:hover .newTvPlay-nav-center-fl-yc1 {
+                        display: block;
+                    }
+                }
+                .newTvPlay-nav-center-fl-yc1 {
+                    position: absolute;
+                    top: 48px;
+                    left: 88px;
+                    width: 88px;
+                    //                  height: 300px;
+                    background-color: #fff;
+                    display: none;
+                    z-index: 10;
+                    a {
+                        font-size: 20px;
+                        display: block;
+                        width: 88px;
+                        text-align: center;
+                        text-decoration: none;
+                        color: #353434;
+                    }
+                }
+                .newTvPlay-nav-center-fl-yc2 {
+                    position: absolute;
+                    top: 48px;
+                    right: 0;
+                    width: 88px;
+                    //                  height: 300px;
+                    background-color: #fff;
+                    display: none;
+                    z-index: 10;
+                    a {
+                        font-size: 20px;
+                        display: block;
+                        width: 88px;
+                        text-align: center;
+                        text-decoration: none;
+                        color: #353434;
+                    }
+                }
+            } //newTvPlay-nav-center-fl
+        } //newTvPlay-nav-center
+        .newTvPlay-nav-ranking {
+            position: relative;
+            margin-left: 108px;
+            width: 88px;
+            padding: 0 10px;
+            text-align: center;
+            background-color: #f10215;
+            float: left;
+            line-height: 46px;
+            &:hover .newTvPlay-nav-ranking-yc {
+                display: block;
+            }
+            a {
+                text-decoration: none;
+                font-size: 20px;
+                color: #fff;
+            }
+            .newTvPlay-nav-ranking-yc {
+                position: absolute;
+                top: 48px;
+                left: 0px;
+                width: 188px;
+                //              height: 300px;
+                background-color: #fff;
+                display: none;
+                z-index: 10;
+                ul {
+                    li {
+                        line-height: 30px;
+                        width: 100%;
+                        text-indent: 1em;
+                        white-space: nowrap;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        em {
+                            text-align: center;
+                            font-style: 700;
+                            float: left;
+                            display: block;
+                            width: 25px;
+                            height: 30px;
+                            font-size: 15px;
+                        }
+                        .hotManga-right-b-se {
+                            color: #f10215;
+                        }
+                        a {
+                            margin-left: 5px;
+                            float: left;
+                            font-size: 15px;
+                            line-height: 30px;
+                            display: block;
+                            text-decoration: none;
+                            color: #353434;
+                            &:hover {
+                                color: #f10215;
+                            }
+                        } //a
+                        span {
+                            float: right;
+                            color: #f10215;
+                        }
+                    } //li
+                } //ul
+                //              a {
+                //                  white-space: nowrap;
+                //                  overflow: hidden;
+                //                  text-overflow: ellipsis;
+                //                  display: block;
+                //                  width: 100%;
+                //                  text-align: center;
+                //                  text-decoration: none;
+                //                  color: #353434;
+                //              }
+            }
+        } //newTvPlay-nav-ranking
+    } //newTvPlay-nav
+    .newTvPlay-b {
+        ul {
+            margin-top: -8px;
+            padding-left: 30px;
+            .newTvPlay-b-first {
+                border: 1px solid #9D9D9D;
+                margin-top: 10px;
+                position: relative;
+                float: left;
+                height: 574px;
+                width: 307px;
+                background-color: #fff;
+                transition: all 3s;
+                &:hover {
+                    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+                    transform: translatey(-20px);
+                    transform: scale(1.2);
+                }
+                a {
+                    display: block;
+                    width: 307px;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                div {
+                    line-height: 38px;
+                    height: 38px;
+                    font-size: 20px !important;
+                    span {
+                        text-align: center;
+                        float: left;
+                        display: block;
+                        width: 30px;
+                        height: 38px;
+                        background-color: #f10215;
+                        color: #fff;
+                    }
+                    h5 {
+                        font-style: 700;
+                        line-height: 38px;
+                        margin: 0 0 0 15px;
+                        font-size: 20px;
+                        float: left;
+                        &:hover {
+                            color: #f10215;
+                        }
+                    } //h5
+                } //div
+                .newTvPlay-b-icon {
+                    position: absolute;
+                    top: 1px;
+                    left: 0;
+                    color: #259e33;
+                    font-size: 36px;
+                    span {
+                        font-size: 12px;
+                        color: #fff;
+                        position: absolute;
+                        top: 14px;
+                        ;
+                        left: 11px;
+                    } //span
+                } //newTvPlay-b-icon
+                p {
+                    text-indent: 1.5em;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
+            } //newTvPlay-b-first
+            .newTvPlay-b-tupian {
+                margin-top: 10px;
+                border: 1px solid #9D9D9D;
+                position: relative;
+                margin-left: 30px;
+                width: 180px;
+                height: 282px;
+                background-color: #fff;
+                float: left;
+                transition: all 3s;
+                &:hover {
+                    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
+                    transform: translatey(-20px);
+                    //                  transform: scale(1.2);
+                }
+                a {
+                    display: block;
+                    width: 178px;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    } //img
+                } //a
+                div {
+                    line-height: 30px;
+                    width: 178px;
+                    height: 30px;
+                    //             background-color: red;
+                    span {
+                        text-align: center;
+                        float: left;
+                        display: block;
+                        width: 25px;
+                        height: 30px;
+                        background-color: #f10215;
+                        color: #fff;
+                    }
+                    h5 {
+                        float: left;
+                        &:hover {
+                            color: #f10215;
+                        }
+                    }
+                } //div
+                .newTvPlay-b-icon {
+                    position: absolute;
+                    top: 1px;
+                    left: 0;
+                    color: #259e33;
+                    font-size: 36px;
+                    span {
+                        font-size: 12px;
+                        color: #fff;
+                        position: absolute;
+                        top: 14px;
+                        ;
+                        left: 11px;
+                    }
+                }
+            } //li
+        } //ul
+    } //newTvPlay-b
+} //newTvPlay
+//热门电视剧结束
+//热门电影开始
+.hotMovie {
+    padding-right:0 !important;
+    padding-left:0 !important;
+    
+    margin-top: 45px !important;
+    //  height: 560px;
+    background-color: #888888;
+    .hotMovie-nav {
+        height: 48px;
+        background-color: #262626;
+        .hotMovie-nav-l {
+            line-height: 48px;
+            float: left;
+            //      background-color: yellow;
+            height: 48px;
+            width: 148px;
+            .hotMovie-nav-l-icon {
+                color: #fff;
+                font-size: 20px;
+                margin-top: 12px;
+            }
+            span {
+                margin: 9px 5px 0 0;
+                float: left;
+                display: block;
+                width: 15px;
+                height: 30px;
+                background-color: red;
+            } //span
+            h3 {
+                color: #fff;
+                margin: 0 0 0 5px;
+                line-height: 48px;
+                float: right;
+                display: block;
+                font-size: 23px;
+            } //h3
+        } //hotMovie-nav-l
+        .hotMovie-nav-r {
+            float: right;
+            height: 48px;
+            width: 68px;
+            margin-right: 10px;
+            //      background-color: yellow;
+            a {
+                font-style: 700;
+                font-size: 18px;
+                text-decoration: none;
+                color: #fff;
+                float: right;
+                display: block;
+                line-height: 48px;
+            }
+            .hotMovie-nav-r-icon {
+                font-size: 22px;
+                color: #fff;
+                margin: 13px 0 0 5px;
+            }
+        } //hotMovie-nav-r
+        .hotMovie-nav-center {
+            float: left;
+            //          background-color: yellow;
+            height: 48px;
+            width: 338px;
+            margin-left: 525px;
+            .hotMovie-nav-center-fl {
+                line-height: 48px;
+                position: relative;
+                .hotMovie-nav-center-fl-a {
+                    float: left;
+                    text-align: center;
+                    display: block;
+                    height: 48px;
+                    width: 88px;
+                    background-color: #f10215;
+                    font-style: 700;
+                    text-decoration: none;
+                    font-size: 20px;
+                    color: #fff;
+                }
+                span {
+                    margin-top: 10px;
+                    float: left;
+                    display: block;
+                    height: 48px;
+                    padding: 0 20px;
+                    color: #fff;
+                }
+                .hotMovie-nav-center-fl-span2 {
+                    &:hover .hotMovie-nav-center-fl-yc2 {
+                        display: block;
+                    }
+                }
+                .hotMovie-nav-center-fl-span1 {
+                    &:hover .hotMovie-nav-center-fl-yc1 {
+                        display: block;
+                    }
+                }
+                .hotMovie-nav-center-fl-span3 {
+                    &:hover .hotMovie-nav-center-fl-yc3 {
+                        display: block;
+                    }
+                }
+                .hotMovie-nav-center-fl-yc1 {
+                    position: absolute;
+                    top: 48px;
+                    left: 88px;
+                    width: 88px;
+                    //                  height: 300px;
+                    background-color: #fff;
+                    display: none;
+                    z-index: 10;
+                    a {
+                        font-size: 20px;
+                        display: block;
+                        width: 88px;
+                        text-align: center;
+                        text-decoration: none;
+                        color: #353434;
+                    }
+                }
+                .hotMovie-nav-center-fl-yc2 {
+                    position: absolute;
+                    top: 48px;
+                    right: 74px;
+                    width: 88px;
+                    //                  height: 300px;
+                    background-color: #fff;
+                    display: none;
+                    z-index: 10;
+                    a {
+                        font-size: 20px;
+                        display: block;
+                        width: 88px;
+                        text-align: center;
+                        text-decoration: none;
+                        color: #353434;
+                    }
+                }
+                .hotMovie-nav-center-fl-yc3 {
+                    position: absolute;
+                    top: 48px;
+                    right: 0px;
+                    width: 88px;
+                    //                  height: 300px;
+                    background-color: #fff;
+                    display: none;
+                    z-index: 10;
+                    a {
+                        font-size: 20px;
+                        display: block;
+                        width: 88px;
+                        text-align: center;
+                        text-decoration: none;
+                        color: #353434;
+                    }
+                }
+            } //hotMovie-nav-center-fl
+        } //nhotMovie-nav-center
+        .hotMovie-nav-ranking {
+            position: relative;
+            margin-left: 108px;
+            width: 88px;
+            padding: 0 10px;
+            text-align: center;
+            background-color: #f10215;
+            float: left;
+            line-height: 46px;
+            &:hover .hotMovie-nav-ranking-yc {
+                display: block;
+            }
+            a {
+                text-decoration: none;
+                font-size: 20px;
+                color: #fff;
+            }
+            .hotMovie-nav-ranking-yc {
+                position: absolute;
+                top: 48px;
+                left: 0px;
+                width: 188px;
+                //              height: 300px;
+                background-color: #fff;
+                display: none;
+                z-index: 10;
+                ul {
+                    li {
+                        line-height: 30px;
+                        width: 100%;
+                        text-indent: 1em;
+                        white-space: nowrap;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        em {
+                            text-align: center;
+                            font-style: 700;
+                            float: left;
+                            display: block;
+                            width: 25px;
+                            height: 30px;
+                            font-size: 15px;
+                        }
+                        .hotManga-right-b-se {
+                            color: #f10215;
+                        }
+                        a {
+                            margin-left: 5px;
+                            float: left;
+                            font-size: 15px;
+                            line-height: 30px;
+                            display: block;
+                            text-decoration: none;
+                            color: #353434;
+                            &:hover {
+                                color: #f10215;
+                            }
+                        } //a
+                        span {
+                            float: right;
+                            color: #f10215;
+                        }
+                    } //li
+                } //ul
+                //              a {
+                //                  white-space: nowrap;
+                //                  overflow: hidden;
+                //                  text-overflow: ellipsis;
+                //                  display: block;
+                //                  width: 100%;
+                //                  text-align: center;
+                //                  text-decoration: none;
+                //                  color: #353434;
+                //              }
+            }
+        } //hotMovie-nav-ranking
+    } //hotMovie-nav
+    .hotMovie-b {
+        ul {
+            margin-top: -8px;
+            padding-left: 30px;
+            .hotMovie-b-first {
+                border: 1px solid #9D9D9D;
+                margin-top: 10px;
+                position: relative;
+                float: left;
+                height: 574px;
+                width: 307px;
+                background-color: #fff;
+                transition: all 3s;
+                &:hover {
+                    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+                    transform: translatey(-20px);
+                    transform: scale(1.2);
+                }
+                a {
+                    display: block;
+                    width: 307px;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                div {
+                    line-height: 38px;
+                    height: 38px;
+                    font-size: 20px !important;
+                    span {
+                        text-align: center;
+                        float: left;
+                        display: block;
+                        width: 30px;
+                        height: 38px;
+                        background-color: #f10215;
+                        color: #fff;
+                    }
+                    h5 {
+                        font-style: 700;
+                        line-height: 38px;
+                        margin: 0 0 0 15px;
+                        font-size: 20px;
+                        float: left;
+                        &:hover {
+                            color: #f10215;
+                        }
+                    } //h5
+                } //div
+                .hotMovie-b-icon {
+                    position: absolute;
+                    top: 1px;
+                    left: 0;
+                    color: #259e33;
+                    font-size: 36px;
+                    span {
+                        font-size: 12px;
+                        color: #fff;
+                        position: absolute;
+                        top: 14px;
+                        ;
+                        left: 11px;
+                    } //span
+                } //newTvPlay-b-icon
+                p {
+                    text-indent: 1.5em;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
+            } //newTvPlay-b-first
+            .hotMovie-b-tupian {
+                margin-top: 10px;
+                border: 1px solid #9D9D9D;
+                position: relative;
+                margin-left: 30px;
+                width: 180px;
+                height: 281px;
+                background-color: #fff;
+                float: left;
+                transition: all 3s;
+                &:hover {
+                    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
+                    transform: translatey(-20px);
+                    //                  transform: scale(1.2);
+                }
+                a {
+                    display: block;
+                    width: 178px;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    } //img
+                } //a
+                div {
+                    line-height: 30px;
+                    width: 178px;
+                    height: 30px;
+                    //             background-color: red;
+                    span {
+                        text-align: center;
+                        float: left;
+                        display: block;
+                        width: 25px;
+                        height: 30px;
+                        background-color: #f10215;
+                        color: #fff;
+                    }
+                    h5 {
+                        float: left;
+                        &:hover {
+                            color: #f10215;
+                        }
+                    }
+                } //div
+                .hotMovie-b-icon {
+                    position: absolute;
+                    top: 1px;
+                    left: 0;
+                    color: #259e33;
+                    font-size: 36px;
+                    span {
+                        font-size: 12px;
+                        color: #fff;
+                        position: absolute;
+                        top: 14px;
+                        ;
+                        left: 11px;
+                    }
+                }
+            } //li
+        } //ul
+    } //hotMovie-b
+} //hotMovie
+//热门动漫开始
+.hotManga {
+    padding-right:0 !important;
+    padding-left:0 !important;
+    margin-top: 45px !important;
+    //  height: 560px;
+    background-color: #888888;
+    padding-left:0;
+    padding-right:0;
+    .hotManga-left {
+        float: left;
+        //      background-color: yellow;
+        width: 1178px;
+        .hotManga-left-nav {
+            height: 48px;
+            background-color: #262626;
+            .hotManga-left-nav-l {
+                line-height: 20px;
+                float: left;
+                //      background-color: yellow;
+                height: 48px;
+                width: 148px;
+                .hotManga-left-nav-l-icon {
+                    color: #fff;
+                    font-size: 20px;
+                    margin-top: 12px;
+                }
+                span {
+                    margin: 9px 5px 0 0;
+                    float: left;
+                    display: block;
+                    width: 15px;
+                    height: 30px;
+                    background-color: red;
+                } //span
+                h3 {
+                    color: #fff;
+                    margin: 0 0 0 5px;
+                    line-height: 48px;
+                    float: right;
+                    display: block;
+                    font-size: 23px;
+                } //h3
+            } //hotManga-left-nav-l
+            .hotManga-left-nav-r {
+                float: right;
+                height: 48px;
+                width: 68px;
+                margin-right: 10px;
+                //      background-color: yellow;
+                a {
+                    font-style: 700;
+                    font-size: 18px;
+                    text-decoration: none;
+                    color: #fff;
+                    float: right;
+                    display: block;
+                    line-height: 48px;
+                }
+                .hotManga-left-nav-r-icon {
+                    font-size: 22px;
+                    color: #fff;
+                    margin: 13px 0 0 5px;
+                }
+            } //hotManga-left-nav-r
+            .hotManga-left-nav-center {
+                float: left;
+                //          background-color:yellow;
+                height: 48px;
+                line-height: 48px;
+                ;
+                width: 218px;
+                margin-left: 98px;
+                ul {
+                    li {
+                        float: left;
+                        a {
+                            display: block;
+                            height: 48px;
+                            padding: 0 10px;
+                            text-decoration: none;
+                            font-size: 16px;
+                            color: #fff;
+                            &:hover {
+                                color: #f10215;
+                            }
+                        } //a
+                    } //li
+                } //ul
+            } //hotManga-left-nav-center
+        } //hotManga-left-nav
+        .hotManga-left-b {
+            ul {
+                margin-top: -8px;
+                //              padding-left: 30px;
+                .hotManga-left-b-first {
+                    border: 1px solid #9D9D9D;
+                    margin-top: 10px;
+                    position: relative;
+                    float: left;
+                    height: 566px;
+                    width: 302px;
+                    background-color: #fff;
+                    transition: all 3s;
+                    &:hover {
+                        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+                        transform: translatey(-20px);
+                        transform: scale(1.2);
+                    }
+                    a {
+                        display: block;
+                        width: 300px;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                    div {
+                        line-height: 38px;
+                        height: 38px;
+                        font-size: 20px !important;
+                        span {
+                            text-align: center;
+                            float: left;
+                            display: block;
+                            width: 30px;
+                            height: 38px;
+                            background-color: #f10215;
+                            color: #fff;
+                        }
+                        h5 {
+                            font-style: 700;
+                            line-height: 38px;
+                            margin: 0 0 0 15px;
+                            font-size: 20px;
+                            float: left;
+                            &:hover {
+                                color: #f10215;
+                            }
+                        } //h5
+                    } //div
+                    .hotManga-left-b-icon {
+                        position: absolute;
+                        top: 1px;
+                        left: 0;
+                        color: #259e33;
+                        font-size: 36px;
+                        span {
+                            font-size: 12px;
+                            color: #fff;
+                            position: absolute;
+                            top: 14px;
+                            ;
+                            left: 11px;
+                        } //span
+                    } //newTvPlay-b-icon
+                    p {
+                        text-indent: 1.5em;
+                        white-space: nowrap;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                    }
+                } //newTvPlay-b-first
+                .hotManga-left-b-tupian {
+                    margin-top: 10px;
+                    border: 1px solid #9D9D9D;
+                    position: relative;
+                    margin-left: 10px;
+                    width: 165px;
+                    height: 274px;
+                    background-color: #fff;
+                    float: left;
+                    transition: all 3s;
+                    &:hover {
+                        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
+                        transform: translatey(-20px);
+                        //                      transform: scale(1.2);
+                    }
+                    a {
+                        display: block;
+                        width: 163px;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        } //img
+                    } //a
+                    div {
+                        line-height: 30px;
+                        width: 178px;
+                        height: 30px;
+                        //             background-color: red;
+                        span {
+                            text-align: center;
+                            float: left;
+                            display: block;
+                            width: 25px;
+                            height: 30px;
+                            background-color: #f10215;
+                            color: #fff;
+                        }
+                        h5 {
+                            float: left;
+                            &:hover {
+                                color: #f10215;
+                            }
+                        }
+                    } //div
+                    .hotManga-left-b-icon {
+                        position: absolute;
+                        top: 1px;
+                        left: 0;
+                        color: #259e33;
+                        font-size: 36px;
+                        span {
+                            font-size: 12px;
+                            color: #fff;
+                            position: absolute;
+                            top: 14px;
+                            ;
+                            left: 11px;
+                        }
+                    }
+                } //li
+            } //ul
+        } //hotManga-left-b
+    } //hotManga-left
+    .hotManga-right {
+        float: right;
+        width: 213px;
+        .hotManga-right-nav {
+            height: 48px;
+            background-color: #f10215;
+            .hotManga-right-nav-ranking {
+                padding: 0 10px;
+                text-align: center;
+                //              background-color: #f10215;
+                float: left;
+                line-height: 48px;
+                a {
+                    text-decoration: none;
+                    font-size: 20px;
+                    color: #fff;
+                } //a
+                .hotManga-right-nav-ranking-icon {
+                    font-size: 20px;
+                }
+            } //hotManga-right-nav-ranking
+        } //hotManga-right-nav
+        .hotManga-right-b {
+            width: 100%;
+            background-color: #fff;
+            ul {
+                margin-top: 13px;
+                li {
+                    line-height: 30px;
+                    width: 100%;
+                    text-indent: 1em;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    em {
+                        text-align: center;
+                        font-style: 700;
+                        float: left;
+                        display: block;
+                        width: 25px;
+                        height: 30px;
+                        font-size: 15px;
+                    }
+                    .hotManga-right-b-se {
+                        color: #f10215;
+                    }
+                    a {
+                        margin-left: 5px;
+                        float: left;
+                        font-size: 15px;
+                        line-height: 30px;
+                        display: block;
+                        text-decoration: none;
+                        color: #353434;
+                        &:hover {
+                            color: #f10215;
+                        }
+                    } //a
+                    span {
+                        float: right;
+                        color: #f10215;
+                    }
+                } //li
+            } //ul
+        } //hotManga-right-b
+    } //hotManga-right
+} //hotMovie
+//热门动漫结束
+//热门综艺开始
+.hotVariety {
+    padding-right:0 !important;
+    padding-left:0 !important;
+    margin-top: 45px !important;
+    //  height: 560px;
+    background-color: #888888;
+    .hotVariety-left {
+        float: left;
+        //      background-color: yellow;
+        width: 1178px;
+        .hotVariety-left-nav {
+            height: 48px;
+            background-color: #262626;
+            .hotVariety-left-nav-l {
+                line-height: 48px;
+                float: left;
+                //      background-color: yellow;
+                height: 48px;
+                width: 148px;
+                .hotVariety-left-nav-l-icon {
+                    color: #fff;
+                    font-size: 20px;
+                    margin-top: 12px;
+                }
+                span {
+                    margin: 9px 5px 0 0;
+                    float: left;
+                    display: block;
+                    width: 15px;
+                    height: 30px;
+                    background-color: red;
+                } //span
+                h3 {
+                    color: #fff;
+                    margin: 0 0 0 5px;
+                    line-height: 48px;
+                    float: right;
+                    display: block;
+                    font-size: 23px;
+                } //h3
+            } //hotManga-left-nav-l
+            .hotVariety-left-nav-r {
+                float: right;
+                height: 48px;
+                width: 68px;
+                margin-right: 10px;
+                //      background-color: yellow;
+                a {
+                    font-style: 700;
+                    font-size: 18px;
+                    text-decoration: none;
+                    color: #fff;
+                    float: right;
+                    display: block;
+                    line-height: 48px;
+                }
+                .hotVariety-left-nav-r-icon {
+                    font-size: 22px;
+                    color: #fff;
+                    margin: 13px 0 0 5px;
+                }
+            } //hotVariety-left-nav-r
+            .hotVariety-left-nav-center {
+                float: left;
+                //          background-color:yellow;
+                height: 48px;
+                line-height: 48px;
+                //              width: 218px;
+                margin-left: 98px;
+                ul {
+                    li {
+                        float: left;
+                        a {
+                            display: block;
+                            height: 48px;
+                            padding: 0 10px;
+                            text-decoration: none;
+                            font-size: 16px;
+                            color: #fff;
+                            &:hover {
+                                color: #f10215;
+                            }
+                        } //a
+                    } //li
+                } //ul
+            } //hotVariety-left-nav-center
+        } //hotVariety-left-nav
+        .hotVariety-left-b {
+            ul {
+                margin-top: -8px;
+                //              padding-left: 30px;
+                .hotVariety-left-b-first {
+                    border: 1px solid #9D9D9D;
+                    margin-top: 10px;
+                    position: relative;
+                    float: left;
+                    height: 566px;
+                    width: 302px;
+                    background-color: #fff;
+                    transition: all 3s;
+                    &:hover {
+                        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+                        transform: translatey(-20px);
+                        transform: scale(1.2);
+                    }
+                    a {
+                        display: block;
+                        width: 300px;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                    div {
+                        line-height: 38px;
+                        height: 38px;
+                        font-size: 20px !important;
+                        span {
+                            text-align: center;
+                            float: left;
+                            display: block;
+                            width: 30px;
+                            height: 38px;
+                            background-color: #f10215;
+                            color: #fff;
+                        }
+                        h5 {
+                            font-style: 700;
+                            line-height: 38px;
+                            margin: 0 0 0 15px;
+                            font-size: 20px;
+                            float: left;
+                            &:hover {
+                                color: #f10215;
+                            }
+                        } //h5
+                    } //div
+                    .hotVariety-left-b-icon {
+                        position: absolute;
+                        top: 1px;
+                        left: 0;
+                        color: #259e33;
+                        font-size: 36px;
+                        span {
+                            font-size: 12px;
+                            color: #fff;
+                            position: absolute;
+                            top: 14px;
+                            ;
+                            left: 11px;
+                        } //span
+                    } //newTvPlay-b-icon
+                    p {
+                        text-indent: 1.5em;
+                        white-space: nowrap;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                    }
+                } //newTvPlay-b-first
+                .hotVariety-left-b-tupian {
+                    margin-top: 10px;
+                    border: 1px solid #9D9D9D;
+                    position: relative;
+                    margin-left: 10px;
+                    width: 165px;
+                    height: 277px;
+                    background-color: #fff;
+                    float: left;
+                    transition: all 3s;
+                    &:hover {
+                        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
+                        transform: translatey(-20px);
+                        //                      transform: scale(1.2);
+                    }
+                    a {
+                        display: block;
+                        width: 163px;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        } //img
+                    } //a
+                    div {
+                        line-height: 30px;
+                        width: 178px;
+                        height: 30px;
+                        //             background-color: red;
+                        span {
+                            text-align: center;
+                            float: left;
+                            display: block;
+                            width: 25px;
+                            height: 30px;
+                            background-color: #f10215;
+                            color: #fff;
+                        }
+                        h5 {
+                            float: left;
+                            &:hover {
+                                color: #f10215;
+                            }
+                        }
+                    } //div
+                    .hotVariety-left-b-icon {
+                        position: absolute;
+                        top: 1px;
+                        left: 0;
+                        color: #259e33;
+                        font-size: 36px;
+                        span {
+                            font-size: 12px;
+                            color: #fff;
+                            position: absolute;
+                            top: 14px;
+                            ;
+                            left: 11px;
+                        }
+                    }
+                } //li
+            } //ul
+        } //hotVariety-left-b
+    } //hotVariety-left
+    .hotVariety-right {
+        float: right;
+        width: 213px;
+        .hotVariety-right-nav {
+            height: 48px;
+            background-color: #f10215;
+            .hotVariety-right-nav-ranking {
+                padding: 0 10px;
+                text-align: center;
+                //              background-color: #f10215;
+                float: left;
+                line-height: 48px;
+                a {
+                    text-decoration: none;
+                    font-size: 20px;
+                    color: #fff;
+                } //a
+                .hotVariety-right-nav-ranking-icon {
+                    font-size: 20px;
+                }
+            } //hotVariety-right-nav-ranking
+        } //hotVariety-right-nav
+        .hotVariety-right-b {
+            width: 100%;
+            background-color: #fff;
+            ul {
+                margin-top: 13px;
+                li {
+                    line-height: 30px;
+                    width: 100%;
+                    text-indent: 1em;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    em {
+                        text-align: center;
+                        font-style: 700;
+                        float: left;
+                        display: block;
+                        width: 25px;
+                        height: 30px;
+                        font-size: 15px;
+                    }
+                    .hotVariety-right-b-se {
+                        color: #f10215;
+                    }
+                    a {
+                        margin-left: 5px;
+                        float: left;
+                        font-size: 15px;
+                        line-height: 30px;
+                        display: block;
+                        text-decoration: none;
+                        color: #353434;
+                        &:hover {
+                            color: #f10215;
+                        }
+                    } //a
+                    span {
+                        float: right;
+                        color: #f10215;
+                    }
+                } //li
+            } //ul
+        } //hotVariety-right-b
+    } //hotVariety-right
+} //hotVariety
+//热门综艺结束
+//丝袜美腿开始
+.silk {
+    padding-right:0 !important;
+    padding-left:0 !important;
+    margin-top: 45px !important;
+    //  height: 560px;
+    background-color: #888888;
+    .silk-left {
+        float: left;
+        //      background-color: yellow;
+        //      width: 1178px;
+        .silk-left-nav {
+            height: 48px;
+            background-color: #262626;
+            .silk-left-nav-l {
+                line-height: 48px;
+                float: left;
+                //      background-color: yellow;
+                height: 48px;
+                width: 148px;
+                .silk-left-nav-l-icon {
+                    color: #fff;
+                    font-size: 20px;
+                    margin-top: 12px;
+                }
+                span {
+                    margin: 9px 5px 0 0;
+                    float: left;
+                    display: block;
+                    width: 15px;
+                    height: 30px;
+                    background-color: red;
+                } //span
+                h3 {
+                    color: #fff;
+                    margin: 0 0 0 5px;
+                    line-height: 48px;
+                    float: right;
+                    display: block;
+                    font-size: 23px;
+                } //h3
+            } //hotManga-left-nav-l
+            .silk-left-nav-r {
+                float: right;
+                height: 48px;
+                width: 68px;
+                margin-right: 10px;
+                //      background-color: yellow;
+                a {
+                    font-style: 700;
+                    font-size: 18px;
+                    text-decoration: none;
+                    color: #fff;
+                    float: right;
+                    display: block;
+                    line-height: 48px;
+                }
+                .silk-left-nav-r-icon {
+                    font-size: 22px;
+                    color: #fff;
+                    margin: 13px 0 0 5px;
+                }
+            } //silk-left-nav-r
+            .silk-left-nav-center {
+                float: left;
+                //          background-color:yellow;
+                height: 48px;
+                line-height: 48px;
+                //              width: 218px;
+                margin-left: 98px;
+                ul {
+                    li {
+                        float: left;
+                        a {
+                            display: block;
+                            height: 48px;
+                            padding: 0 10px;
+                            text-decoration: none;
+                            font-size: 16px;
+                            color: #fff;
+                            &:hover {
+                                color: #f10215;
+                            }
+                        } //a
+                    } //li
+                } //ul
+            } //silk-left-nav-center
+        } //silk-left-nav
+        .silk-left-b {
+            ul {
+                padding-left: 28px;
+                margin-top: -8px;
+                //              padding-left: 30px;
+                .silk-left-b-first {
+                    border: 1px solid #9D9D9D;
+                    margin-top: 10px;
+                    position: relative;
+                    float: left;
+                    height: 566px;
+                    width: 309px;
+                    background-color: #fff;
+                    transition: all 3s;
+                    &:hover {
+                        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+                        transform: translatey(-20px);
+                        transform: scale(1.2);
+                    }
+                    a {
+                        display: block;
+                        width: 307px;
+                        height: 445px;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                    div {
+                        line-height: 38px;
+                        height: 38px;
+                        font-size: 20px !important;
+                        span {
+                            text-align: center;
+                            float: left;
+                            display: block;
+                            width: 30px;
+                            height: 38px;
+                            background-color: #f10215;
+                            color: #fff;
+                        }
+                        h5 {
+                            font-style: 700;
+                            line-height: 38px;
+                            margin: 0 0 0 15px;
+                            font-size: 20px;
+                            float: left;
+                            &:hover {
+                                color: #f10215;
+                            }
+                        } //h5
+                    } //div
+                    .silk-left-b-icon {
+                        position: absolute;
+                        top: 1px;
+                        left: 0;
+                        color: #259e33;
+                        font-size: 36px;
+                        span {
+                            font-size: 12px;
+                            color: #fff;
+                            position: absolute;
+                            top: 14px;
+                            ;
+                            left: 11px;
+                        } //span
+                    } //newTvPlay-b-icon
+                    p {
+                        text-indent: 1.5em;
+                        white-space: nowrap;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                    }
+                } //newTvPlay-b-first
+                .silk-left-b-tupian {
+                    margin-top: 10px;
+                    border: 1px solid #9D9D9D;
+                    position: relative;
+                    margin-left: 20px;
+                    width: 190px;
+                    height: 272px;
+                    background-color: #fff;
+                    float: left;
+                    transition: all 3s;
+                    &:hover {
+                        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
+                        transform: translatey(-20px);
+                        //                      transform: scale(1.2);
+                    }
+                    a {
+                        display: block;
+                        width: 188px;
+                        height: 240px;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        } //img
+                    } //a
+                    div {
+                        line-height: 30px;
+                        width: 178px;
+                        height: 30px;
+                        //             background-color: red;
+                        span {
+                            text-align: center;
+                            float: left;
+                            display: block;
+                            width: 25px;
+                            height: 30px;
+                            background-color: #f10215;
+                            color: #fff;
+                        }
+                        h5 {
+                            float: left;
+                            &:hover {
+                                color: #f10215;
+                            }
+                        }
+                    } //div
+                    .silk-left-b-icon {
+                        position: absolute;
+                        top: 1px;
+                        left: 0;
+                        color: #259e33;
+                        font-size: 36px;
+                        span {
+                            font-size: 12px;
+                            color: #fff;
+                            position: absolute;
+                            top: 14px;
+                            ;
+                            left: 11px;
+                        }
+                    }
+                } //li
+            } //ul
+        } //silk-left-b
+    } //silk-left
+} //silk
+//丝袜美腿结束
+//底部开始
+.dibu {
+    margin-top: 20px !important;
+    height: 60px;
+    background-color: #888888;
+    border-bottom: 1px solid #5E5E5E;
+    ul {
+        height: 100%;
+        li {
+            border-right: 1px solid #9D9D9D;
+            height: 100%;
+            line-height: 60px;
+            width: 348px;
+            float: left;
+            h5 {
+                float: left;
+                display: block;
+                margin: 24px 0 0 20px;
+                a {
+                    text-decoration: none;
+                    color: #353434;
+                    &:hover {
+                        color: #f10215;
+                    }
+                }
+            } //h5
+            i {
+                float: left;
+                display: block;
+                line-height: 60px;
+                margin: 0 0 0 20px;
+                color: #353434;
+                font-size: 20px;
+            }
+        } //
+    } //ul
+} //dibu
+
+.dibu-tonglang {
+    background-color: #1e1e1e;
+    height: 165px;
+    border-top: 6px solid #ff3737;
+    margin-top: 20px;
+    .dibu-center{
+        padding-right:0 !important;
+    padding-left:0 !important;
+    
+    .dibu-tonglang-l {
+       float:left;
+        margin-top:40px;
+        .dibu2 {
+            width: 418px;
+            height: 30px;
+//          background-color: #888888;
+            h5 {
+                //      margin-left:300px;
+                color: #929191;
+                font-size: 20px;
+                display: inline-block;
+            }
+            p {
+                //       background-color:#fff;
+                //      border-bottom:1px solid  #333333;
+                display: inline-block;
+                a {
+                    margin-left: 20px;
+                    text-decoration: none;
+                    color: #929191;
+                    &:hover {
+                        color: #f10215;
+                    }
+                }
+            }
+        }
+        .dibu3 {
+            width: 418px;
+            height: 30px;
+//          background-color: #888888;
+            h5 {
+                //      margin-left:392px;
+                color: #929191;
+                font-size: 20px;
+                display: inline-block;
+            }
+            p {
+                //       background-color:#fff;
+                //      border-bottom:1px solid #333333;
+                display: inline-block;
+                a {
+                    margin-left: 20px;
+                    text-decoration: none;
+                    color: #929191;
+                    &:hover {
+                        color: #f10215;
+                    }
+                }
+            }
+        }
+        .dibu4 {
+            width: 418px;
+            height: 30px;
+//          background-color: #888888;
+            h5 {
+                //      margin-left:458px;
+                color: #929191;
+                font-size: 20px;
+                display: inline-block;
+            }
+            p {
+                //       background-color:#fff;
+                //      border-bottom:1px solid  #333333;
+                display: inline-block;
+                a {
+                    margin-left: 20px;
+                    text-decoration: none;
+                    color: #929191;
+                    &:hover {
+                        color: #f10215;
+                    }
+                }
+            }
+        }
+    }
+    .dibu-tonglang-r{
+         float:right;
+//       margin-left:528px;
+         margin-top:40px;
+        width:470px;
+        height:114px;
+//      background-color: red;
+        .dibu-tonglang-r-l{
+            float:left;
+            width:234px;
+        height:114px;
+//      background-color: pink;
+        .dibu-tonglang-r-l-tupian{
+            float:left;
+            height:100%;
+            width:112px;
+        }//dibu-tonglang-r-l-tupian
+        .dibu-tonglang-r-l-wenzi{
+//          background-color: red;
+            float:right;
+            width:86px;
+            height:66px;
+            margin:25px 25px 0 0;
+            p{
+                 color: #929191;
+                font-size:12px;
+            }
+        }
+        }//dibu-tonglang-r-l
+         .dibu-tonglang-r-r{
+             float:right;
+            width:234px;
+        height:114px;
+//      background-color: yellow;
+        .dibu-tonglang-r-r-tupian{
+            float:left;
+            height:100%;
+            width:112px;
+        }//dibu-tonglang-r-l-tupian
+        .dibu-tonglang-r-r-wenzi{
+//          background-color: red;
+            float:right;
+            width:103px;
+            height:66px;
+            margin:25px 5px 0 0;
+            p{
+                color: #929191;
+                font-size:12px;
+            }
+        }
+        }//dibu-tonglang-r-r
+    }//dibu-tonglang-r
+}
+}
+
+.didu-tonglang2 {
+    background-color: #1e1e1e;
+    height: 38px;
+    border-top: 1px solid #ff3737;
+    .didu-tonglang2-r {
+//              background-color: red;
+        p {
+            float:right;
+            display: block;
+            width: 200px;
+            color: #929191;
+            margin: 10px 155px 0 0px;
+        }
+    }
+}

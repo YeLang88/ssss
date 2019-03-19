@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+/* CSS document */
+body{
+    background-color: #151515;
+}
+.nav1-tonglang{
+    background-color: #b9282f;
+    height:100px;
+    .nav1{
+//      background-color: blue;
+        .nav1-logo{
+            float:left;
+            height:100px;
+            width:230px;
+            img{
+                height:100%;
+                width:100%;
+            }
+        }
+        .nav1-shouye{
+            margin-top:10px;
+            float:right;
+            height:50px;
+            width:100px;
+            a{
+                text-decoration: none ;
+                color:#fff;
+                font-size:20px;
+            }
+        }
+    }//nav1
+}//nav1-tonglang
+.juzhong{
+//  background-color: pink;
+    height:1000px;
+    .juzhong-l{
+        float:left;
+        margin-right:20px;
+        margin-top:10px;
+//      background-color:#19191b;
+        width:350px;
+        height:600px;
+        .juzhong-l-top{
+            border-radius: 10px;
+            padding:10px;
+            height:420px;
+            background-color:#19191b;
+            h5{
+                color:#707071;
+            }
+            input{
+                border:1px solid #6e6e6f;
+                color:#fff;
+                width:100%;
+                height:33px;
+                background-color:#212122;
+                outline: none;
+            }
+            textarea{
+                border:1px solid #6e6e6f;
+                background-color: #212122;
+                color:#fff;
+                width:100%;
+                height:160px;
+                outline: none;
+            }
+            button{
+                background-color: #b9282f;
+                border:0;
+                color:#fff;
+                margin-left:225px;
+                margin-top:10px;
+               outline: none ;
+                height:34px;
+                padding:0 20px;
+            }
+            p{
+                padding-top:15px;
+                color:#707071;
+            }
+        }
+       
+        .juzhong-l-b{
+            border-radius: 10px;
+            margin-top:10px;
+            padding:20px 20px 20px 10px;
+            height:180px;
+            background-color:#19191b;
+            p{
+                color:#707071;
+            }
+        }
+    }
+    .juzhong-r{
+        margin-top:20px;
+        float:left;
+//      background-color:yellow;
+        width:680px;
+//      height:800px;
+        .juzhong-r-c{
+            margin-top:20px;
+            height:75px;
+            width:100%;
+//          background-color: #19191b;
+            .juzhong-r-c-l{
+                background-color: #19191b;
+                float:left;
+                padding-top:20px;
+               border:1px solid #f10215;
+               width:70px;
+               height:70px;
+               border-radius: 10px;
+               p{
+                   margin:0px 0 0 0;
+                   text-align: center;
+                   line-height: 20px;
+                   color:#fff;
+               }
+            }
+            .juzhong-r-c-r{
+                position: relative;
+                background-color: #19191b;
+                padding: 0 10px ;
+                float:right;
+                width:600px;
+                height:100%;
+                border:1px solid #707071;
+//              .juzhong-r-c-r-icon{
+//                  position:absolute;
+//                  color:#19191b;
+//               
+//                  top:3px;
+//                  left:-11px;
+//              }
+                .juzhong-r-c-r-t{
+                    color:#707071;
+                    line-height: 30px;;
+                    border-bottom:1px solid #707071;
+                    p{
+                        margin-bottom:0;
+                        display: inline-block;
+                        color:#f10215;
+                    }
+                    span{
+                        float:right;
+                    }
+                }//juzhong-r-c-r-t
+                p{
+                    line-height: 36px;
+                    color:#707071;
+                }
+            }
+        };
+    }
+}

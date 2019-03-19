@@ -1,0 +1,1625 @@
+/* CSS document */
+.nav1 .navbar-toggle2 {
+  border: 1px solid #3C3C3C; }
+  .nav1 .navbar-toggle2 span {
+    background-color: #262626; }
+
+.nva1-tonglang {
+  background-color: ghostwhite; }
+
+.nav1 {
+  background-color: ghostwhite;
+  height: 80px;
+  padding-left: 0 !important;
+  padding-right: 0 !important; }
+  .nav1 .bjys {
+    height: 100%; }
+  .nav1 .nav1-logo {
+    float: left;
+    height: 100%;
+    width: 150px; }
+    .nav1 .nav1-logo a img {
+      width: 100%;
+      height: 100%; }
+    .nav1 .nav1-logo h1 {
+      text-indent: -9999px; }
+  .nav1 .nav1-search {
+    position: relative;
+    float: left;
+    margin: 15px 0 0 218px;
+    width: 488px;
+    height: 50px;
+    line-height: 50px !important;
+    border-radius: 38px;
+    background-color: #E0E0E0;
+    overflow: hidden; }
+    .nav1 .nav1-search div {
+      width: 386px;
+      display: inline-block; }
+      .nav1 .nav1-search div input {
+        background-color: #E0E0E0;
+        height: 30px;
+        width: 368px;
+        margin-left: 18px;
+        border: 0;
+        outline: none; }
+    .nav1 .nav1-search button {
+      text-indent: 1em;
+      outline: none;
+      font-size: 18px;
+      color: #fff;
+      width: 98px;
+      border-top-right-radius: 38px;
+      border-bottom-right-radius: 38px;
+      border: 0;
+      background-color: #f10215; }
+    .nav1 .nav1-search .nav1-search-icon1 {
+      position: absolute;
+      top: 15px;
+      right: 68px;
+      font-size: 22px;
+      color: #fff; }
+    .nav1 .nav1-search .nav1-search-icon2 {
+      position: absolute;
+      top: 15px;
+      right: 108px;
+      font-size: 22px;
+      color: #8C8C8C; }
+  .nav1 .nav1-r-nav {
+    margin-top: 15px;
+    float: right;
+    width: 280px;
+    height: 50px;
+    line-height: 50px; }
+    .nav1 .nav1-r-nav div {
+      position: relative;
+      text-align: center;
+      height: 50px;
+      line-height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      background-color: #f10215;
+      float: left;
+      margin-left: 20px; }
+      .nav1 .nav1-r-nav div:hover {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2); }
+      .nav1 .nav1-r-nav div span {
+        color: #fff;
+        left: 12px;
+        position: absolute;
+        font-size: 14px; }
+        .nav1 .nav1-r-nav div span a {
+          text-decoration: none;
+          color: #fff; }
+      .nav1 .nav1-r-nav div .nav1-search-span1 {
+        top: -8px; }
+      .nav1 .nav1-r-nav div .nav1-search-span2 {
+        top: 8px; }
+
+.nav2-tonglang {
+  background-color: #303030;
+  height: 60px; }
+  .nav2-tonglang .nav2 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    height: 60px; }
+    .nav2-tonglang .nav2 ul {
+      padding-left: 0 !important;
+      float: left;
+      line-height: 58px; }
+      .nav2-tonglang .nav2 ul li {
+        padding: 0 10px;
+        background-color: #262626;
+        margin-right: 20px;
+        float: left; }
+        .nav2-tonglang .nav2 ul li:hover {
+          -webkit-transform: scale(1.2);
+          transform: scale(1.2); }
+        .nav2-tonglang .nav2 ul li a {
+          text-decoration: none;
+          color: #fff;
+          font-size: 20px; }
+        .nav2-tonglang .nav2 ul li i {
+          font-size: 20px; }
+    .nav2-tonglang .nav2 .nav2-yh {
+      position: relative;
+      height: 60px;
+      line-height: 58px;
+      float: right; }
+      .nav2-tonglang .nav2 .nav2-yh .nav2-yh-jl {
+        height: 60px;
+        padding: 0 10px;
+        background-color: #262626;
+        float: left;
+        margin-right: 20px; }
+        .nav2-tonglang .nav2 .nav2-yh .nav2-yh-jl:hover .nav2-yh-yc {
+          display: block; }
+        .nav2-tonglang .nav2 .nav2-yh .nav2-yh-jl span {
+          color: #fff;
+          line-height: 60px;
+          font-size: 20px; }
+        .nav2-tonglang .nav2 .nav2-yh .nav2-yh-jl i {
+          color: #fff;
+          font-size: 20px; }
+        .nav2-tonglang .nav2 .nav2-yh .nav2-yh-jl .nav2-yh-yc {
+          height: 208px;
+          width: 246px;
+          border: 1px solid #e6e6e8;
+          border-top: 0;
+          background-color: #fff;
+          position: absolute;
+          top: 62px;
+          right: 35px;
+          display: none;
+          z-index: 3; }
+      .nav2-tonglang .nav2 .nav2-yh .nav2-yh-dl {
+        padding: 0 10px;
+        background-color: red;
+        float: left; }
+        .nav2-tonglang .nav2 .nav2-yh .nav2-yh-dl:hover {
+          -webkit-transform: scale(1.2);
+          transform: scale(1.2); }
+        .nav2-tonglang .nav2 .nav2-yh .nav2-yh-dl a {
+          text-decoration: none;
+          color: #fff;
+          font-size: 20px; }
+        .nav2-tonglang .nav2 .nav2-yh .nav2-yh-dl i {
+          color: #fff;
+          font-size: 20px; }
+        .nav2-tonglang .nav2 .nav2-yh .nav2-yh-dl span {
+          font-size: 20px;
+          color: #fff; }
+
+.lunbotu {
+  background-color: pink; }
+  .lunbotu .lunbotu-icon {
+    color: #fff !important; }
+  .lunbotu .lunbotu-tupian div {
+    width: 100%;
+    height: 100%; }
+    .lunbotu .lunbotu-tupian div a {
+      display: block;
+      width: 100%;
+      height: 100%; }
+      .lunbotu .lunbotu-tupian div a img {
+        width: 100%;
+        height: 100%; }
+
+.newMovie {
+  margin-top: 45px !important;
+  background-color: #888888;
+  padding-left: 0 !important;
+  padding-right: 0 !important; }
+  .newMovie .newMovie-nav {
+    height: 48px;
+    background-color: #262626; }
+    .newMovie .newMovie-nav .newMovie-nav-l {
+      line-height: 48px;
+      float: left;
+      height: 48px;
+      width: 195px; }
+      .newMovie .newMovie-nav .newMovie-nav-l .newMovie-nav-l-icon {
+        color: #fff;
+        font-size: 20px;
+        margin-top: 12px; }
+      .newMovie .newMovie-nav .newMovie-nav-l span {
+        margin: 9px 5px 0 0;
+        float: left;
+        display: block;
+        width: 15px;
+        height: 30px;
+        background-color: red; }
+      .newMovie .newMovie-nav .newMovie-nav-l h3 {
+        color: #fff;
+        margin: 0 0 0 5px;
+        line-height: 48px;
+        float: right;
+        display: block;
+        font-size: 23px; }
+    .newMovie .newMovie-nav .newMovie-nav-r {
+      float: right;
+      height: 48px;
+      width: 68px;
+      margin-right: 10px; }
+      .newMovie .newMovie-nav .newMovie-nav-r a {
+        font-style: 700;
+        font-size: 18px;
+        text-decoration: none;
+        color: #fff;
+        float: right;
+        display: block;
+        line-height: 48px; }
+      .newMovie .newMovie-nav .newMovie-nav-r .newMovie-nav-r-icon {
+        font-size: 22px;
+        color: #fff;
+        margin: 13px 0 0 5px; }
+  .newMovie .newMovie-tupian {
+    margin-top: -10px;
+    background-color: yellow; }
+    .newMovie .newMovie-tupian ul {
+      padding-left: 20px; }
+      .newMovie .newMovie-tupian ul li {
+        background-color: #fff;
+        border: 1px solid #9D9D9D;
+        float: left;
+        margin: 20px 20px 0 0;
+        width: 180px;
+        -webkit-transition: all 3s;
+        transition: all 3s; }
+        .newMovie .newMovie-tupian ul li:hover {
+          -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
+          -webkit-transform: translatey(-20px);
+          transform: translatey(-20px); }
+        .newMovie .newMovie-tupian ul li a {
+          text-decoration: none;
+          display: block;
+          width: 100%;
+          height: 100%; }
+          .newMovie .newMovie-tupian ul li a span {
+            display: block;
+            width: 100%;
+            height: 100%; }
+            .newMovie .newMovie-tupian ul li a span img {
+              width: 100%;
+              height: 100%; }
+          .newMovie .newMovie-tupian ul li a h5 {
+            color: #353434;
+            text-indent: 1em; }
+            .newMovie .newMovie-tupian ul li a h5:hover {
+              color: red; }
+          .newMovie .newMovie-tupian ul li a p {
+            color: #353434;
+            text-indent: 0.5em; }
+
+.newTvPlay {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-top: 45px !important;
+  background-color: #888888; }
+  .newTvPlay .newTvPlay-nav {
+    height: 48px;
+    background-color: #262626; }
+    .newTvPlay .newTvPlay-nav .newTvPlay-nav-l {
+      line-height: 48px;
+      float: left;
+      height: 48px;
+      width: 168px; }
+      .newTvPlay .newTvPlay-nav .newTvPlay-nav-l .newTvPlay-nav-l-icon {
+        color: #fff;
+        font-size: 20px;
+        margin-top: 12px; }
+      .newTvPlay .newTvPlay-nav .newTvPlay-nav-l span {
+        margin: 9px 5px 0 0;
+        float: left;
+        display: block;
+        width: 15px;
+        height: 30px;
+        background-color: red; }
+      .newTvPlay .newTvPlay-nav .newTvPlay-nav-l h3 {
+        color: #fff;
+        margin: 0 0 0 5px;
+        line-height: 48px;
+        float: right;
+        display: block;
+        font-size: 23px; }
+    .newTvPlay .newTvPlay-nav .newTvPlay-nav-r {
+      float: right;
+      height: 48px;
+      width: 68px;
+      margin-right: 10px; }
+      .newTvPlay .newTvPlay-nav .newTvPlay-nav-r a {
+        font-style: 700;
+        font-size: 18px;
+        text-decoration: none;
+        color: #fff;
+        float: right;
+        display: block;
+        line-height: 48px; }
+      .newTvPlay .newTvPlay-nav .newTvPlay-nav-r .newTvPlay-nav-r-icon {
+        font-size: 22px;
+        color: #fff;
+        margin: 13px 0 0 5px; }
+    .newTvPlay .newTvPlay-nav .newTvPlay-nav-center {
+      float: left;
+      height: 48px;
+      width: 264px;
+      margin-left: 648px; }
+      .newTvPlay .newTvPlay-nav .newTvPlay-nav-center .newTvPlay-nav-center-fl {
+        line-height: 48px;
+        position: relative; }
+        .newTvPlay .newTvPlay-nav .newTvPlay-nav-center .newTvPlay-nav-center-fl .newTvPlay-nav-center-fl-a {
+          float: left;
+          text-align: center;
+          display: block;
+          height: 48px;
+          width: 88px;
+          background-color: #f10215;
+          font-style: 700;
+          text-decoration: none;
+          font-size: 20px;
+          color: #fff; }
+        .newTvPlay .newTvPlay-nav .newTvPlay-nav-center .newTvPlay-nav-center-fl span {
+          margin-top: 10px;
+          float: left;
+          display: block;
+          height: 48px;
+          padding: 0 20px;
+          color: #fff; }
+        .newTvPlay .newTvPlay-nav .newTvPlay-nav-center .newTvPlay-nav-center-fl .newTvPlay-nav-center-fl-span2:hover .newTvPlay-nav-center-fl-yc2 {
+          display: block; }
+        .newTvPlay .newTvPlay-nav .newTvPlay-nav-center .newTvPlay-nav-center-fl .newTvPlay-nav-center-fl-span1:hover .newTvPlay-nav-center-fl-yc1 {
+          display: block; }
+        .newTvPlay .newTvPlay-nav .newTvPlay-nav-center .newTvPlay-nav-center-fl .newTvPlay-nav-center-fl-yc1 {
+          position: absolute;
+          top: 48px;
+          left: 88px;
+          width: 88px;
+          background-color: #fff;
+          display: none;
+          z-index: 10; }
+          .newTvPlay .newTvPlay-nav .newTvPlay-nav-center .newTvPlay-nav-center-fl .newTvPlay-nav-center-fl-yc1 a {
+            font-size: 20px;
+            display: block;
+            width: 88px;
+            text-align: center;
+            text-decoration: none;
+            color: #353434; }
+        .newTvPlay .newTvPlay-nav .newTvPlay-nav-center .newTvPlay-nav-center-fl .newTvPlay-nav-center-fl-yc2 {
+          position: absolute;
+          top: 48px;
+          right: 0;
+          width: 88px;
+          background-color: #fff;
+          display: none;
+          z-index: 10; }
+          .newTvPlay .newTvPlay-nav .newTvPlay-nav-center .newTvPlay-nav-center-fl .newTvPlay-nav-center-fl-yc2 a {
+            font-size: 20px;
+            display: block;
+            width: 88px;
+            text-align: center;
+            text-decoration: none;
+            color: #353434; }
+    .newTvPlay .newTvPlay-nav .newTvPlay-nav-ranking {
+      position: relative;
+      margin-left: 108px;
+      width: 88px;
+      padding: 0 10px;
+      text-align: center;
+      background-color: #f10215;
+      float: left;
+      line-height: 46px; }
+      .newTvPlay .newTvPlay-nav .newTvPlay-nav-ranking:hover .newTvPlay-nav-ranking-yc {
+        display: block; }
+      .newTvPlay .newTvPlay-nav .newTvPlay-nav-ranking a {
+        text-decoration: none;
+        font-size: 20px;
+        color: #fff; }
+      .newTvPlay .newTvPlay-nav .newTvPlay-nav-ranking .newTvPlay-nav-ranking-yc {
+        position: absolute;
+        top: 48px;
+        left: 0px;
+        width: 188px;
+        background-color: #fff;
+        display: none;
+        z-index: 10; }
+        .newTvPlay .newTvPlay-nav .newTvPlay-nav-ranking .newTvPlay-nav-ranking-yc ul li {
+          line-height: 30px;
+          width: 100%;
+          text-indent: 1em;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis; }
+          .newTvPlay .newTvPlay-nav .newTvPlay-nav-ranking .newTvPlay-nav-ranking-yc ul li em {
+            text-align: center;
+            font-style: 700;
+            float: left;
+            display: block;
+            width: 25px;
+            height: 30px;
+            font-size: 15px; }
+          .newTvPlay .newTvPlay-nav .newTvPlay-nav-ranking .newTvPlay-nav-ranking-yc ul li .hotManga-right-b-se {
+            color: #f10215; }
+          .newTvPlay .newTvPlay-nav .newTvPlay-nav-ranking .newTvPlay-nav-ranking-yc ul li a {
+            margin-left: 5px;
+            float: left;
+            font-size: 15px;
+            line-height: 30px;
+            display: block;
+            text-decoration: none;
+            color: #353434; }
+            .newTvPlay .newTvPlay-nav .newTvPlay-nav-ranking .newTvPlay-nav-ranking-yc ul li a:hover {
+              color: #f10215; }
+          .newTvPlay .newTvPlay-nav .newTvPlay-nav-ranking .newTvPlay-nav-ranking-yc ul li span {
+            float: right;
+            color: #f10215; }
+  .newTvPlay .newTvPlay-b ul {
+    margin-top: -8px;
+    padding-left: 30px; }
+    .newTvPlay .newTvPlay-b ul .newTvPlay-b-first {
+      border: 1px solid #9D9D9D;
+      margin-top: 10px;
+      position: relative;
+      float: left;
+      height: 574px;
+      width: 307px;
+      background-color: #fff;
+      -webkit-transition: all 3s;
+      transition: all 3s; }
+      .newTvPlay .newTvPlay-b ul .newTvPlay-b-first:hover {
+        -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+        -webkit-transform: translatey(-20px);
+        transform: translatey(-20px);
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2); }
+      .newTvPlay .newTvPlay-b ul .newTvPlay-b-first a {
+        display: block;
+        width: 307px; }
+        .newTvPlay .newTvPlay-b ul .newTvPlay-b-first a img {
+          width: 100%;
+          height: 100%; }
+      .newTvPlay .newTvPlay-b ul .newTvPlay-b-first div {
+        line-height: 38px;
+        height: 38px;
+        font-size: 20px !important; }
+        .newTvPlay .newTvPlay-b ul .newTvPlay-b-first div span {
+          text-align: center;
+          float: left;
+          display: block;
+          width: 30px;
+          height: 38px;
+          background-color: #f10215;
+          color: #fff; }
+        .newTvPlay .newTvPlay-b ul .newTvPlay-b-first div h5 {
+          font-style: 700;
+          line-height: 38px;
+          margin: 0 0 0 15px;
+          font-size: 20px;
+          float: left; }
+          .newTvPlay .newTvPlay-b ul .newTvPlay-b-first div h5:hover {
+            color: #f10215; }
+      .newTvPlay .newTvPlay-b ul .newTvPlay-b-first .newTvPlay-b-icon {
+        position: absolute;
+        top: 1px;
+        left: 0;
+        color: #259e33;
+        font-size: 36px; }
+        .newTvPlay .newTvPlay-b ul .newTvPlay-b-first .newTvPlay-b-icon span {
+          font-size: 12px;
+          color: #fff;
+          position: absolute;
+          top: 14px;
+          left: 11px; }
+      .newTvPlay .newTvPlay-b ul .newTvPlay-b-first p {
+        text-indent: 1.5em;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis; }
+    .newTvPlay .newTvPlay-b ul .newTvPlay-b-tupian {
+      margin-top: 10px;
+      border: 1px solid #9D9D9D;
+      position: relative;
+      margin-left: 30px;
+      width: 180px;
+      height: 282px;
+      background-color: #fff;
+      float: left;
+      -webkit-transition: all 3s;
+      transition: all 3s; }
+      .newTvPlay .newTvPlay-b ul .newTvPlay-b-tupian:hover {
+        -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
+        -webkit-transform: translatey(-20px);
+        transform: translatey(-20px); }
+      .newTvPlay .newTvPlay-b ul .newTvPlay-b-tupian a {
+        display: block;
+        width: 178px; }
+        .newTvPlay .newTvPlay-b ul .newTvPlay-b-tupian a img {
+          width: 100%;
+          height: 100%; }
+      .newTvPlay .newTvPlay-b ul .newTvPlay-b-tupian div {
+        line-height: 30px;
+        width: 178px;
+        height: 30px; }
+        .newTvPlay .newTvPlay-b ul .newTvPlay-b-tupian div span {
+          text-align: center;
+          float: left;
+          display: block;
+          width: 25px;
+          height: 30px;
+          background-color: #f10215;
+          color: #fff; }
+        .newTvPlay .newTvPlay-b ul .newTvPlay-b-tupian div h5 {
+          float: left; }
+          .newTvPlay .newTvPlay-b ul .newTvPlay-b-tupian div h5:hover {
+            color: #f10215; }
+      .newTvPlay .newTvPlay-b ul .newTvPlay-b-tupian .newTvPlay-b-icon {
+        position: absolute;
+        top: 1px;
+        left: 0;
+        color: #259e33;
+        font-size: 36px; }
+        .newTvPlay .newTvPlay-b ul .newTvPlay-b-tupian .newTvPlay-b-icon span {
+          font-size: 12px;
+          color: #fff;
+          position: absolute;
+          top: 14px;
+          left: 11px; }
+
+.hotMovie {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin-top: 45px !important;
+  background-color: #888888; }
+  .hotMovie .hotMovie-nav {
+    height: 48px;
+    background-color: #262626; }
+    .hotMovie .hotMovie-nav .hotMovie-nav-l {
+      line-height: 48px;
+      float: left;
+      height: 48px;
+      width: 148px; }
+      .hotMovie .hotMovie-nav .hotMovie-nav-l .hotMovie-nav-l-icon {
+        color: #fff;
+        font-size: 20px;
+        margin-top: 12px; }
+      .hotMovie .hotMovie-nav .hotMovie-nav-l span {
+        margin: 9px 5px 0 0;
+        float: left;
+        display: block;
+        width: 15px;
+        height: 30px;
+        background-color: red; }
+      .hotMovie .hotMovie-nav .hotMovie-nav-l h3 {
+        color: #fff;
+        margin: 0 0 0 5px;
+        line-height: 48px;
+        float: right;
+        display: block;
+        font-size: 23px; }
+    .hotMovie .hotMovie-nav .hotMovie-nav-r {
+      float: right;
+      height: 48px;
+      width: 68px;
+      margin-right: 10px; }
+      .hotMovie .hotMovie-nav .hotMovie-nav-r a {
+        font-style: 700;
+        font-size: 18px;
+        text-decoration: none;
+        color: #fff;
+        float: right;
+        display: block;
+        line-height: 48px; }
+      .hotMovie .hotMovie-nav .hotMovie-nav-r .hotMovie-nav-r-icon {
+        font-size: 22px;
+        color: #fff;
+        margin: 13px 0 0 5px; }
+    .hotMovie .hotMovie-nav .hotMovie-nav-center {
+      float: left;
+      height: 48px;
+      width: 338px;
+      margin-left: 525px; }
+      .hotMovie .hotMovie-nav .hotMovie-nav-center .hotMovie-nav-center-fl {
+        line-height: 48px;
+        position: relative; }
+        .hotMovie .hotMovie-nav .hotMovie-nav-center .hotMovie-nav-center-fl .hotMovie-nav-center-fl-a {
+          float: left;
+          text-align: center;
+          display: block;
+          height: 48px;
+          width: 88px;
+          background-color: #f10215;
+          font-style: 700;
+          text-decoration: none;
+          font-size: 20px;
+          color: #fff; }
+        .hotMovie .hotMovie-nav .hotMovie-nav-center .hotMovie-nav-center-fl span {
+          margin-top: 10px;
+          float: left;
+          display: block;
+          height: 48px;
+          padding: 0 20px;
+          color: #fff; }
+        .hotMovie .hotMovie-nav .hotMovie-nav-center .hotMovie-nav-center-fl .hotMovie-nav-center-fl-span2:hover .hotMovie-nav-center-fl-yc2 {
+          display: block; }
+        .hotMovie .hotMovie-nav .hotMovie-nav-center .hotMovie-nav-center-fl .hotMovie-nav-center-fl-span1:hover .hotMovie-nav-center-fl-yc1 {
+          display: block; }
+        .hotMovie .hotMovie-nav .hotMovie-nav-center .hotMovie-nav-center-fl .hotMovie-nav-center-fl-span3:hover .hotMovie-nav-center-fl-yc3 {
+          display: block; }
+        .hotMovie .hotMovie-nav .hotMovie-nav-center .hotMovie-nav-center-fl .hotMovie-nav-center-fl-yc1 {
+          position: absolute;
+          top: 48px;
+          left: 88px;
+          width: 88px;
+          background-color: #fff;
+          display: none;
+          z-index: 10; }
+          .hotMovie .hotMovie-nav .hotMovie-nav-center .hotMovie-nav-center-fl .hotMovie-nav-center-fl-yc1 a {
+            font-size: 20px;
+            display: block;
+            width: 88px;
+            text-align: center;
+            text-decoration: none;
+            color: #353434; }
+        .hotMovie .hotMovie-nav .hotMovie-nav-center .hotMovie-nav-center-fl .hotMovie-nav-center-fl-yc2 {
+          position: absolute;
+          top: 48px;
+          right: 74px;
+          width: 88px;
+          background-color: #fff;
+          display: none;
+          z-index: 10; }
+          .hotMovie .hotMovie-nav .hotMovie-nav-center .hotMovie-nav-center-fl .hotMovie-nav-center-fl-yc2 a {
+            font-size: 20px;
+            display: block;
+            width: 88px;
+            text-align: center;
+            text-decoration: none;
+            color: #353434; }
+        .hotMovie .hotMovie-nav .hotMovie-nav-center .hotMovie-nav-center-fl .hotMovie-nav-center-fl-yc3 {
+          position: absolute;
+          top: 48px;
+          right: 0px;
+          width: 88px;
+          background-color: #fff;
+          display: none;
+          z-index: 10; }
+          .hotMovie .hotMovie-nav .hotMovie-nav-center .hotMovie-nav-center-fl .hotMovie-nav-center-fl-yc3 a {
+            font-size: 20px;
+            display: block;
+            width: 88px;
+            text-align: center;
+            text-decoration: none;
+            color: #353434; }
+    .hotMovie .hotMovie-nav .hotMovie-nav-ranking {
+      position: relative;
+      margin-left: 108px;
+      width: 88px;
+      padding: 0 10px;
+      text-align: center;
+      background-color: #f10215;
+      float: left;
+      line-height: 46px; }
+      .hotMovie .hotMovie-nav .hotMovie-nav-ranking:hover .hotMovie-nav-ranking-yc {
+        display: block; }
+      .hotMovie .hotMovie-nav .hotMovie-nav-ranking a {
+        text-decoration: none;
+        font-size: 20px;
+        color: #fff; }
+      .hotMovie .hotMovie-nav .hotMovie-nav-ranking .hotMovie-nav-ranking-yc {
+        position: absolute;
+        top: 48px;
+        left: 0px;
+        width: 188px;
+        background-color: #fff;
+        display: none;
+        z-index: 10; }
+        .hotMovie .hotMovie-nav .hotMovie-nav-ranking .hotMovie-nav-ranking-yc ul li {
+          line-height: 30px;
+          width: 100%;
+          text-indent: 1em;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis; }
+          .hotMovie .hotMovie-nav .hotMovie-nav-ranking .hotMovie-nav-ranking-yc ul li em {
+            text-align: center;
+            font-style: 700;
+            float: left;
+            display: block;
+            width: 25px;
+            height: 30px;
+            font-size: 15px; }
+          .hotMovie .hotMovie-nav .hotMovie-nav-ranking .hotMovie-nav-ranking-yc ul li .hotManga-right-b-se {
+            color: #f10215; }
+          .hotMovie .hotMovie-nav .hotMovie-nav-ranking .hotMovie-nav-ranking-yc ul li a {
+            margin-left: 5px;
+            float: left;
+            font-size: 15px;
+            line-height: 30px;
+            display: block;
+            text-decoration: none;
+            color: #353434; }
+            .hotMovie .hotMovie-nav .hotMovie-nav-ranking .hotMovie-nav-ranking-yc ul li a:hover {
+              color: #f10215; }
+          .hotMovie .hotMovie-nav .hotMovie-nav-ranking .hotMovie-nav-ranking-yc ul li span {
+            float: right;
+            color: #f10215; }
+  .hotMovie .hotMovie-b ul {
+    margin-top: -8px;
+    padding-left: 30px; }
+    .hotMovie .hotMovie-b ul .hotMovie-b-first {
+      border: 1px solid #9D9D9D;
+      margin-top: 10px;
+      position: relative;
+      float: left;
+      height: 574px;
+      width: 307px;
+      background-color: #fff;
+      -webkit-transition: all 3s;
+      transition: all 3s; }
+      .hotMovie .hotMovie-b ul .hotMovie-b-first:hover {
+        -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+        -webkit-transform: translatey(-20px);
+        transform: translatey(-20px);
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2); }
+      .hotMovie .hotMovie-b ul .hotMovie-b-first a {
+        display: block;
+        width: 307px; }
+        .hotMovie .hotMovie-b ul .hotMovie-b-first a img {
+          width: 100%;
+          height: 100%; }
+      .hotMovie .hotMovie-b ul .hotMovie-b-first div {
+        line-height: 38px;
+        height: 38px;
+        font-size: 20px !important; }
+        .hotMovie .hotMovie-b ul .hotMovie-b-first div span {
+          text-align: center;
+          float: left;
+          display: block;
+          width: 30px;
+          height: 38px;
+          background-color: #f10215;
+          color: #fff; }
+        .hotMovie .hotMovie-b ul .hotMovie-b-first div h5 {
+          font-style: 700;
+          line-height: 38px;
+          margin: 0 0 0 15px;
+          font-size: 20px;
+          float: left; }
+          .hotMovie .hotMovie-b ul .hotMovie-b-first div h5:hover {
+            color: #f10215; }
+      .hotMovie .hotMovie-b ul .hotMovie-b-first .hotMovie-b-icon {
+        position: absolute;
+        top: 1px;
+        left: 0;
+        color: #259e33;
+        font-size: 36px; }
+        .hotMovie .hotMovie-b ul .hotMovie-b-first .hotMovie-b-icon span {
+          font-size: 12px;
+          color: #fff;
+          position: absolute;
+          top: 14px;
+          left: 11px; }
+      .hotMovie .hotMovie-b ul .hotMovie-b-first p {
+        text-indent: 1.5em;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis; }
+    .hotMovie .hotMovie-b ul .hotMovie-b-tupian {
+      margin-top: 10px;
+      border: 1px solid #9D9D9D;
+      position: relative;
+      margin-left: 30px;
+      width: 180px;
+      height: 281px;
+      background-color: #fff;
+      float: left;
+      -webkit-transition: all 3s;
+      transition: all 3s; }
+      .hotMovie .hotMovie-b ul .hotMovie-b-tupian:hover {
+        -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
+        -webkit-transform: translatey(-20px);
+        transform: translatey(-20px); }
+      .hotMovie .hotMovie-b ul .hotMovie-b-tupian a {
+        display: block;
+        width: 178px; }
+        .hotMovie .hotMovie-b ul .hotMovie-b-tupian a img {
+          width: 100%;
+          height: 100%; }
+      .hotMovie .hotMovie-b ul .hotMovie-b-tupian div {
+        line-height: 30px;
+        width: 178px;
+        height: 30px; }
+        .hotMovie .hotMovie-b ul .hotMovie-b-tupian div span {
+          text-align: center;
+          float: left;
+          display: block;
+          width: 25px;
+          height: 30px;
+          background-color: #f10215;
+          color: #fff; }
+        .hotMovie .hotMovie-b ul .hotMovie-b-tupian div h5 {
+          float: left; }
+          .hotMovie .hotMovie-b ul .hotMovie-b-tupian div h5:hover {
+            color: #f10215; }
+      .hotMovie .hotMovie-b ul .hotMovie-b-tupian .hotMovie-b-icon {
+        position: absolute;
+        top: 1px;
+        left: 0;
+        color: #259e33;
+        font-size: 36px; }
+        .hotMovie .hotMovie-b ul .hotMovie-b-tupian .hotMovie-b-icon span {
+          font-size: 12px;
+          color: #fff;
+          position: absolute;
+          top: 14px;
+          left: 11px; }
+
+.hotManga {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin-top: 45px !important;
+  background-color: #888888;
+  padding-left: 0;
+  padding-right: 0; }
+  .hotManga .hotManga-left {
+    float: left;
+    width: 1178px; }
+    .hotManga .hotManga-left .hotManga-left-nav {
+      height: 48px;
+      background-color: #262626; }
+      .hotManga .hotManga-left .hotManga-left-nav .hotManga-left-nav-l {
+        line-height: 20px;
+        float: left;
+        height: 48px;
+        width: 148px; }
+        .hotManga .hotManga-left .hotManga-left-nav .hotManga-left-nav-l .hotManga-left-nav-l-icon {
+          color: #fff;
+          font-size: 20px;
+          margin-top: 12px; }
+        .hotManga .hotManga-left .hotManga-left-nav .hotManga-left-nav-l span {
+          margin: 9px 5px 0 0;
+          float: left;
+          display: block;
+          width: 15px;
+          height: 30px;
+          background-color: red; }
+        .hotManga .hotManga-left .hotManga-left-nav .hotManga-left-nav-l h3 {
+          color: #fff;
+          margin: 0 0 0 5px;
+          line-height: 48px;
+          float: right;
+          display: block;
+          font-size: 23px; }
+      .hotManga .hotManga-left .hotManga-left-nav .hotManga-left-nav-r {
+        float: right;
+        height: 48px;
+        width: 68px;
+        margin-right: 10px; }
+        .hotManga .hotManga-left .hotManga-left-nav .hotManga-left-nav-r a {
+          font-style: 700;
+          font-size: 18px;
+          text-decoration: none;
+          color: #fff;
+          float: right;
+          display: block;
+          line-height: 48px; }
+        .hotManga .hotManga-left .hotManga-left-nav .hotManga-left-nav-r .hotManga-left-nav-r-icon {
+          font-size: 22px;
+          color: #fff;
+          margin: 13px 0 0 5px; }
+      .hotManga .hotManga-left .hotManga-left-nav .hotManga-left-nav-center {
+        float: left;
+        height: 48px;
+        line-height: 48px;
+        width: 218px;
+        margin-left: 98px; }
+        .hotManga .hotManga-left .hotManga-left-nav .hotManga-left-nav-center ul li {
+          float: left; }
+          .hotManga .hotManga-left .hotManga-left-nav .hotManga-left-nav-center ul li a {
+            display: block;
+            height: 48px;
+            padding: 0 10px;
+            text-decoration: none;
+            font-size: 16px;
+            color: #fff; }
+            .hotManga .hotManga-left .hotManga-left-nav .hotManga-left-nav-center ul li a:hover {
+              color: #f10215; }
+    .hotManga .hotManga-left .hotManga-left-b ul {
+      margin-top: -8px; }
+      .hotManga .hotManga-left .hotManga-left-b ul .hotManga-left-b-first {
+        border: 1px solid #9D9D9D;
+        margin-top: 10px;
+        position: relative;
+        float: left;
+        height: 566px;
+        width: 302px;
+        background-color: #fff;
+        -webkit-transition: all 3s;
+        transition: all 3s; }
+        .hotManga .hotManga-left .hotManga-left-b ul .hotManga-left-b-first:hover {
+          -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+          -webkit-transform: translatey(-20px);
+          transform: translatey(-20px);
+          -webkit-transform: scale(1.2);
+          transform: scale(1.2); }
+        .hotManga .hotManga-left .hotManga-left-b ul .hotManga-left-b-first a {
+          display: block;
+          width: 300px; }
+          .hotManga .hotManga-left .hotManga-left-b ul .hotManga-left-b-first a img {
+            width: 100%;
+            height: 100%; }
+        .hotManga .hotManga-left .hotManga-left-b ul .hotManga-left-b-first div {
+          line-height: 38px;
+          height: 38px;
+          font-size: 20px !important; }
+          .hotManga .hotManga-left .hotManga-left-b ul .hotManga-left-b-first div span {
+            text-align: center;
+            float: left;
+            display: block;
+            width: 30px;
+            height: 38px;
+            background-color: #f10215;
+            color: #fff; }
+          .hotManga .hotManga-left .hotManga-left-b ul .hotManga-left-b-first div h5 {
+            font-style: 700;
+            line-height: 38px;
+            margin: 0 0 0 15px;
+            font-size: 20px;
+            float: left; }
+            .hotManga .hotManga-left .hotManga-left-b ul .hotManga-left-b-first div h5:hover {
+              color: #f10215; }
+        .hotManga .hotManga-left .hotManga-left-b ul .hotManga-left-b-first .hotManga-left-b-icon {
+          position: absolute;
+          top: 1px;
+          left: 0;
+          color: #259e33;
+          font-size: 36px; }
+          .hotManga .hotManga-left .hotManga-left-b ul .hotManga-left-b-first .hotManga-left-b-icon span {
+            font-size: 12px;
+            color: #fff;
+            position: absolute;
+            top: 14px;
+            left: 11px; }
+        .hotManga .hotManga-left .hotManga-left-b ul .hotManga-left-b-first p {
+          text-indent: 1.5em;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis; }
+      .hotManga .hotManga-left .hotManga-left-b ul .hotManga-left-b-tupian {
+        margin-top: 10px;
+        border: 1px solid #9D9D9D;
+        position: relative;
+        margin-left: 10px;
+        width: 165px;
+        height: 274px;
+        background-color: #fff;
+        float: left;
+        -webkit-transition: all 3s;
+        transition: all 3s; }
+        .hotManga .hotManga-left .hotManga-left-b ul .hotManga-left-b-tupian:hover {
+          -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
+          -webkit-transform: translatey(-20px);
+          transform: translatey(-20px); }
+        .hotManga .hotManga-left .hotManga-left-b ul .hotManga-left-b-tupian a {
+          display: block;
+          width: 163px; }
+          .hotManga .hotManga-left .hotManga-left-b ul .hotManga-left-b-tupian a img {
+            width: 100%;
+            height: 100%; }
+        .hotManga .hotManga-left .hotManga-left-b ul .hotManga-left-b-tupian div {
+          line-height: 30px;
+          width: 178px;
+          height: 30px; }
+          .hotManga .hotManga-left .hotManga-left-b ul .hotManga-left-b-tupian div span {
+            text-align: center;
+            float: left;
+            display: block;
+            width: 25px;
+            height: 30px;
+            background-color: #f10215;
+            color: #fff; }
+          .hotManga .hotManga-left .hotManga-left-b ul .hotManga-left-b-tupian div h5 {
+            float: left; }
+            .hotManga .hotManga-left .hotManga-left-b ul .hotManga-left-b-tupian div h5:hover {
+              color: #f10215; }
+        .hotManga .hotManga-left .hotManga-left-b ul .hotManga-left-b-tupian .hotManga-left-b-icon {
+          position: absolute;
+          top: 1px;
+          left: 0;
+          color: #259e33;
+          font-size: 36px; }
+          .hotManga .hotManga-left .hotManga-left-b ul .hotManga-left-b-tupian .hotManga-left-b-icon span {
+            font-size: 12px;
+            color: #fff;
+            position: absolute;
+            top: 14px;
+            left: 11px; }
+  .hotManga .hotManga-right {
+    float: right;
+    width: 213px; }
+    .hotManga .hotManga-right .hotManga-right-nav {
+      height: 48px;
+      background-color: #f10215; }
+      .hotManga .hotManga-right .hotManga-right-nav .hotManga-right-nav-ranking {
+        padding: 0 10px;
+        text-align: center;
+        float: left;
+        line-height: 48px; }
+        .hotManga .hotManga-right .hotManga-right-nav .hotManga-right-nav-ranking a {
+          text-decoration: none;
+          font-size: 20px;
+          color: #fff; }
+        .hotManga .hotManga-right .hotManga-right-nav .hotManga-right-nav-ranking .hotManga-right-nav-ranking-icon {
+          font-size: 20px; }
+    .hotManga .hotManga-right .hotManga-right-b {
+      width: 100%;
+      background-color: #fff; }
+      .hotManga .hotManga-right .hotManga-right-b ul {
+        margin-top: 13px; }
+        .hotManga .hotManga-right .hotManga-right-b ul li {
+          line-height: 30px;
+          width: 100%;
+          text-indent: 1em;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis; }
+          .hotManga .hotManga-right .hotManga-right-b ul li em {
+            text-align: center;
+            font-style: 700;
+            float: left;
+            display: block;
+            width: 25px;
+            height: 30px;
+            font-size: 15px; }
+          .hotManga .hotManga-right .hotManga-right-b ul li .hotManga-right-b-se {
+            color: #f10215; }
+          .hotManga .hotManga-right .hotManga-right-b ul li a {
+            margin-left: 5px;
+            float: left;
+            font-size: 15px;
+            line-height: 30px;
+            display: block;
+            text-decoration: none;
+            color: #353434; }
+            .hotManga .hotManga-right .hotManga-right-b ul li a:hover {
+              color: #f10215; }
+          .hotManga .hotManga-right .hotManga-right-b ul li span {
+            float: right;
+            color: #f10215; }
+
+.hotVariety {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin-top: 45px !important;
+  background-color: #888888; }
+  .hotVariety .hotVariety-left {
+    float: left;
+    width: 1178px; }
+    .hotVariety .hotVariety-left .hotVariety-left-nav {
+      height: 48px;
+      background-color: #262626; }
+      .hotVariety .hotVariety-left .hotVariety-left-nav .hotVariety-left-nav-l {
+        line-height: 48px;
+        float: left;
+        height: 48px;
+        width: 148px; }
+        .hotVariety .hotVariety-left .hotVariety-left-nav .hotVariety-left-nav-l .hotVariety-left-nav-l-icon {
+          color: #fff;
+          font-size: 20px;
+          margin-top: 12px; }
+        .hotVariety .hotVariety-left .hotVariety-left-nav .hotVariety-left-nav-l span {
+          margin: 9px 5px 0 0;
+          float: left;
+          display: block;
+          width: 15px;
+          height: 30px;
+          background-color: red; }
+        .hotVariety .hotVariety-left .hotVariety-left-nav .hotVariety-left-nav-l h3 {
+          color: #fff;
+          margin: 0 0 0 5px;
+          line-height: 48px;
+          float: right;
+          display: block;
+          font-size: 23px; }
+      .hotVariety .hotVariety-left .hotVariety-left-nav .hotVariety-left-nav-r {
+        float: right;
+        height: 48px;
+        width: 68px;
+        margin-right: 10px; }
+        .hotVariety .hotVariety-left .hotVariety-left-nav .hotVariety-left-nav-r a {
+          font-style: 700;
+          font-size: 18px;
+          text-decoration: none;
+          color: #fff;
+          float: right;
+          display: block;
+          line-height: 48px; }
+        .hotVariety .hotVariety-left .hotVariety-left-nav .hotVariety-left-nav-r .hotVariety-left-nav-r-icon {
+          font-size: 22px;
+          color: #fff;
+          margin: 13px 0 0 5px; }
+      .hotVariety .hotVariety-left .hotVariety-left-nav .hotVariety-left-nav-center {
+        float: left;
+        height: 48px;
+        line-height: 48px;
+        margin-left: 98px; }
+        .hotVariety .hotVariety-left .hotVariety-left-nav .hotVariety-left-nav-center ul li {
+          float: left; }
+          .hotVariety .hotVariety-left .hotVariety-left-nav .hotVariety-left-nav-center ul li a {
+            display: block;
+            height: 48px;
+            padding: 0 10px;
+            text-decoration: none;
+            font-size: 16px;
+            color: #fff; }
+            .hotVariety .hotVariety-left .hotVariety-left-nav .hotVariety-left-nav-center ul li a:hover {
+              color: #f10215; }
+    .hotVariety .hotVariety-left .hotVariety-left-b ul {
+      margin-top: -8px; }
+      .hotVariety .hotVariety-left .hotVariety-left-b ul .hotVariety-left-b-first {
+        border: 1px solid #9D9D9D;
+        margin-top: 10px;
+        position: relative;
+        float: left;
+        height: 566px;
+        width: 302px;
+        background-color: #fff;
+        -webkit-transition: all 3s;
+        transition: all 3s; }
+        .hotVariety .hotVariety-left .hotVariety-left-b ul .hotVariety-left-b-first:hover {
+          -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+          -webkit-transform: translatey(-20px);
+          transform: translatey(-20px);
+          -webkit-transform: scale(1.2);
+          transform: scale(1.2); }
+        .hotVariety .hotVariety-left .hotVariety-left-b ul .hotVariety-left-b-first a {
+          display: block;
+          width: 300px; }
+          .hotVariety .hotVariety-left .hotVariety-left-b ul .hotVariety-left-b-first a img {
+            width: 100%;
+            height: 100%; }
+        .hotVariety .hotVariety-left .hotVariety-left-b ul .hotVariety-left-b-first div {
+          line-height: 38px;
+          height: 38px;
+          font-size: 20px !important; }
+          .hotVariety .hotVariety-left .hotVariety-left-b ul .hotVariety-left-b-first div span {
+            text-align: center;
+            float: left;
+            display: block;
+            width: 30px;
+            height: 38px;
+            background-color: #f10215;
+            color: #fff; }
+          .hotVariety .hotVariety-left .hotVariety-left-b ul .hotVariety-left-b-first div h5 {
+            font-style: 700;
+            line-height: 38px;
+            margin: 0 0 0 15px;
+            font-size: 20px;
+            float: left; }
+            .hotVariety .hotVariety-left .hotVariety-left-b ul .hotVariety-left-b-first div h5:hover {
+              color: #f10215; }
+        .hotVariety .hotVariety-left .hotVariety-left-b ul .hotVariety-left-b-first .hotVariety-left-b-icon {
+          position: absolute;
+          top: 1px;
+          left: 0;
+          color: #259e33;
+          font-size: 36px; }
+          .hotVariety .hotVariety-left .hotVariety-left-b ul .hotVariety-left-b-first .hotVariety-left-b-icon span {
+            font-size: 12px;
+            color: #fff;
+            position: absolute;
+            top: 14px;
+            left: 11px; }
+        .hotVariety .hotVariety-left .hotVariety-left-b ul .hotVariety-left-b-first p {
+          text-indent: 1.5em;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis; }
+      .hotVariety .hotVariety-left .hotVariety-left-b ul .hotVariety-left-b-tupian {
+        margin-top: 10px;
+        border: 1px solid #9D9D9D;
+        position: relative;
+        margin-left: 10px;
+        width: 165px;
+        height: 277px;
+        background-color: #fff;
+        float: left;
+        -webkit-transition: all 3s;
+        transition: all 3s; }
+        .hotVariety .hotVariety-left .hotVariety-left-b ul .hotVariety-left-b-tupian:hover {
+          -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
+          -webkit-transform: translatey(-20px);
+          transform: translatey(-20px); }
+        .hotVariety .hotVariety-left .hotVariety-left-b ul .hotVariety-left-b-tupian a {
+          display: block;
+          width: 163px; }
+          .hotVariety .hotVariety-left .hotVariety-left-b ul .hotVariety-left-b-tupian a img {
+            width: 100%;
+            height: 100%; }
+        .hotVariety .hotVariety-left .hotVariety-left-b ul .hotVariety-left-b-tupian div {
+          line-height: 30px;
+          width: 178px;
+          height: 30px; }
+          .hotVariety .hotVariety-left .hotVariety-left-b ul .hotVariety-left-b-tupian div span {
+            text-align: center;
+            float: left;
+            display: block;
+            width: 25px;
+            height: 30px;
+            background-color: #f10215;
+            color: #fff; }
+          .hotVariety .hotVariety-left .hotVariety-left-b ul .hotVariety-left-b-tupian div h5 {
+            float: left; }
+            .hotVariety .hotVariety-left .hotVariety-left-b ul .hotVariety-left-b-tupian div h5:hover {
+              color: #f10215; }
+        .hotVariety .hotVariety-left .hotVariety-left-b ul .hotVariety-left-b-tupian .hotVariety-left-b-icon {
+          position: absolute;
+          top: 1px;
+          left: 0;
+          color: #259e33;
+          font-size: 36px; }
+          .hotVariety .hotVariety-left .hotVariety-left-b ul .hotVariety-left-b-tupian .hotVariety-left-b-icon span {
+            font-size: 12px;
+            color: #fff;
+            position: absolute;
+            top: 14px;
+            left: 11px; }
+  .hotVariety .hotVariety-right {
+    float: right;
+    width: 213px; }
+    .hotVariety .hotVariety-right .hotVariety-right-nav {
+      height: 48px;
+      background-color: #f10215; }
+      .hotVariety .hotVariety-right .hotVariety-right-nav .hotVariety-right-nav-ranking {
+        padding: 0 10px;
+        text-align: center;
+        float: left;
+        line-height: 48px; }
+        .hotVariety .hotVariety-right .hotVariety-right-nav .hotVariety-right-nav-ranking a {
+          text-decoration: none;
+          font-size: 20px;
+          color: #fff; }
+        .hotVariety .hotVariety-right .hotVariety-right-nav .hotVariety-right-nav-ranking .hotVariety-right-nav-ranking-icon {
+          font-size: 20px; }
+    .hotVariety .hotVariety-right .hotVariety-right-b {
+      width: 100%;
+      background-color: #fff; }
+      .hotVariety .hotVariety-right .hotVariety-right-b ul {
+        margin-top: 13px; }
+        .hotVariety .hotVariety-right .hotVariety-right-b ul li {
+          line-height: 30px;
+          width: 100%;
+          text-indent: 1em;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis; }
+          .hotVariety .hotVariety-right .hotVariety-right-b ul li em {
+            text-align: center;
+            font-style: 700;
+            float: left;
+            display: block;
+            width: 25px;
+            height: 30px;
+            font-size: 15px; }
+          .hotVariety .hotVariety-right .hotVariety-right-b ul li .hotVariety-right-b-se {
+            color: #f10215; }
+          .hotVariety .hotVariety-right .hotVariety-right-b ul li a {
+            margin-left: 5px;
+            float: left;
+            font-size: 15px;
+            line-height: 30px;
+            display: block;
+            text-decoration: none;
+            color: #353434; }
+            .hotVariety .hotVariety-right .hotVariety-right-b ul li a:hover {
+              color: #f10215; }
+          .hotVariety .hotVariety-right .hotVariety-right-b ul li span {
+            float: right;
+            color: #f10215; }
+
+.silk {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin-top: 45px !important;
+  background-color: #888888; }
+  .silk .silk-left {
+    float: left; }
+    .silk .silk-left .silk-left-nav {
+      height: 48px;
+      background-color: #262626; }
+      .silk .silk-left .silk-left-nav .silk-left-nav-l {
+        line-height: 48px;
+        float: left;
+        height: 48px;
+        width: 148px; }
+        .silk .silk-left .silk-left-nav .silk-left-nav-l .silk-left-nav-l-icon {
+          color: #fff;
+          font-size: 20px;
+          margin-top: 12px; }
+        .silk .silk-left .silk-left-nav .silk-left-nav-l span {
+          margin: 9px 5px 0 0;
+          float: left;
+          display: block;
+          width: 15px;
+          height: 30px;
+          background-color: red; }
+        .silk .silk-left .silk-left-nav .silk-left-nav-l h3 {
+          color: #fff;
+          margin: 0 0 0 5px;
+          line-height: 48px;
+          float: right;
+          display: block;
+          font-size: 23px; }
+      .silk .silk-left .silk-left-nav .silk-left-nav-r {
+        float: right;
+        height: 48px;
+        width: 68px;
+        margin-right: 10px; }
+        .silk .silk-left .silk-left-nav .silk-left-nav-r a {
+          font-style: 700;
+          font-size: 18px;
+          text-decoration: none;
+          color: #fff;
+          float: right;
+          display: block;
+          line-height: 48px; }
+        .silk .silk-left .silk-left-nav .silk-left-nav-r .silk-left-nav-r-icon {
+          font-size: 22px;
+          color: #fff;
+          margin: 13px 0 0 5px; }
+      .silk .silk-left .silk-left-nav .silk-left-nav-center {
+        float: left;
+        height: 48px;
+        line-height: 48px;
+        margin-left: 98px; }
+        .silk .silk-left .silk-left-nav .silk-left-nav-center ul li {
+          float: left; }
+          .silk .silk-left .silk-left-nav .silk-left-nav-center ul li a {
+            display: block;
+            height: 48px;
+            padding: 0 10px;
+            text-decoration: none;
+            font-size: 16px;
+            color: #fff; }
+            .silk .silk-left .silk-left-nav .silk-left-nav-center ul li a:hover {
+              color: #f10215; }
+    .silk .silk-left .silk-left-b ul {
+      padding-left: 28px;
+      margin-top: -8px; }
+      .silk .silk-left .silk-left-b ul .silk-left-b-first {
+        border: 1px solid #9D9D9D;
+        margin-top: 10px;
+        position: relative;
+        float: left;
+        height: 566px;
+        width: 309px;
+        background-color: #fff;
+        -webkit-transition: all 3s;
+        transition: all 3s; }
+        .silk .silk-left .silk-left-b ul .silk-left-b-first:hover {
+          -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+          -webkit-transform: translatey(-20px);
+          transform: translatey(-20px);
+          -webkit-transform: scale(1.2);
+          transform: scale(1.2); }
+        .silk .silk-left .silk-left-b ul .silk-left-b-first a {
+          display: block;
+          width: 307px;
+          height: 445px; }
+          .silk .silk-left .silk-left-b ul .silk-left-b-first a img {
+            width: 100%;
+            height: 100%; }
+        .silk .silk-left .silk-left-b ul .silk-left-b-first div {
+          line-height: 38px;
+          height: 38px;
+          font-size: 20px !important; }
+          .silk .silk-left .silk-left-b ul .silk-left-b-first div span {
+            text-align: center;
+            float: left;
+            display: block;
+            width: 30px;
+            height: 38px;
+            background-color: #f10215;
+            color: #fff; }
+          .silk .silk-left .silk-left-b ul .silk-left-b-first div h5 {
+            font-style: 700;
+            line-height: 38px;
+            margin: 0 0 0 15px;
+            font-size: 20px;
+            float: left; }
+            .silk .silk-left .silk-left-b ul .silk-left-b-first div h5:hover {
+              color: #f10215; }
+        .silk .silk-left .silk-left-b ul .silk-left-b-first .silk-left-b-icon {
+          position: absolute;
+          top: 1px;
+          left: 0;
+          color: #259e33;
+          font-size: 36px; }
+          .silk .silk-left .silk-left-b ul .silk-left-b-first .silk-left-b-icon span {
+            font-size: 12px;
+            color: #fff;
+            position: absolute;
+            top: 14px;
+            left: 11px; }
+        .silk .silk-left .silk-left-b ul .silk-left-b-first p {
+          text-indent: 1.5em;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis; }
+      .silk .silk-left .silk-left-b ul .silk-left-b-tupian {
+        margin-top: 10px;
+        border: 1px solid #9D9D9D;
+        position: relative;
+        margin-left: 20px;
+        width: 190px;
+        height: 272px;
+        background-color: #fff;
+        float: left;
+        -webkit-transition: all 3s;
+        transition: all 3s; }
+        .silk .silk-left .silk-left-b ul .silk-left-b-tupian:hover {
+          -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8);
+          -webkit-transform: translatey(-20px);
+          transform: translatey(-20px); }
+        .silk .silk-left .silk-left-b ul .silk-left-b-tupian a {
+          display: block;
+          width: 188px;
+          height: 240px; }
+          .silk .silk-left .silk-left-b ul .silk-left-b-tupian a img {
+            width: 100%;
+            height: 100%; }
+        .silk .silk-left .silk-left-b ul .silk-left-b-tupian div {
+          line-height: 30px;
+          width: 178px;
+          height: 30px; }
+          .silk .silk-left .silk-left-b ul .silk-left-b-tupian div span {
+            text-align: center;
+            float: left;
+            display: block;
+            width: 25px;
+            height: 30px;
+            background-color: #f10215;
+            color: #fff; }
+          .silk .silk-left .silk-left-b ul .silk-left-b-tupian div h5 {
+            float: left; }
+            .silk .silk-left .silk-left-b ul .silk-left-b-tupian div h5:hover {
+              color: #f10215; }
+        .silk .silk-left .silk-left-b ul .silk-left-b-tupian .silk-left-b-icon {
+          position: absolute;
+          top: 1px;
+          left: 0;
+          color: #259e33;
+          font-size: 36px; }
+          .silk .silk-left .silk-left-b ul .silk-left-b-tupian .silk-left-b-icon span {
+            font-size: 12px;
+            color: #fff;
+            position: absolute;
+            top: 14px;
+            left: 11px; }
+
+.dibu {
+  margin-top: 20px !important;
+  height: 60px;
+  background-color: #888888;
+  border-bottom: 1px solid #5E5E5E; }
+  .dibu ul {
+    height: 100%; }
+    .dibu ul li {
+      border-right: 1px solid #9D9D9D;
+      height: 100%;
+      line-height: 60px;
+      width: 348px;
+      float: left; }
+      .dibu ul li h5 {
+        float: left;
+        display: block;
+        margin: 24px 0 0 20px; }
+        .dibu ul li h5 a {
+          text-decoration: none;
+          color: #353434; }
+          .dibu ul li h5 a:hover {
+            color: #f10215; }
+      .dibu ul li i {
+        float: left;
+        display: block;
+        line-height: 60px;
+        margin: 0 0 0 20px;
+        color: #353434;
+        font-size: 20px; }
+
+.dibu-tonglang {
+  background-color: #1e1e1e;
+  height: 165px;
+  border-top: 6px solid #ff3737;
+  margin-top: 20px; }
+  .dibu-tonglang .dibu-center {
+    padding-right: 0 !important;
+    padding-left: 0 !important; }
+    .dibu-tonglang .dibu-center .dibu-tonglang-l {
+      float: left;
+      margin-top: 40px; }
+      .dibu-tonglang .dibu-center .dibu-tonglang-l .dibu2 {
+        width: 418px;
+        height: 30px; }
+        .dibu-tonglang .dibu-center .dibu-tonglang-l .dibu2 h5 {
+          color: #929191;
+          font-size: 20px;
+          display: inline-block; }
+        .dibu-tonglang .dibu-center .dibu-tonglang-l .dibu2 p {
+          display: inline-block; }
+          .dibu-tonglang .dibu-center .dibu-tonglang-l .dibu2 p a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #929191; }
+            .dibu-tonglang .dibu-center .dibu-tonglang-l .dibu2 p a:hover {
+              color: #f10215; }
+      .dibu-tonglang .dibu-center .dibu-tonglang-l .dibu3 {
+        width: 418px;
+        height: 30px; }
+        .dibu-tonglang .dibu-center .dibu-tonglang-l .dibu3 h5 {
+          color: #929191;
+          font-size: 20px;
+          display: inline-block; }
+        .dibu-tonglang .dibu-center .dibu-tonglang-l .dibu3 p {
+          display: inline-block; }
+          .dibu-tonglang .dibu-center .dibu-tonglang-l .dibu3 p a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #929191; }
+            .dibu-tonglang .dibu-center .dibu-tonglang-l .dibu3 p a:hover {
+              color: #f10215; }
+      .dibu-tonglang .dibu-center .dibu-tonglang-l .dibu4 {
+        width: 418px;
+        height: 30px; }
+        .dibu-tonglang .dibu-center .dibu-tonglang-l .dibu4 h5 {
+          color: #929191;
+          font-size: 20px;
+          display: inline-block; }
+        .dibu-tonglang .dibu-center .dibu-tonglang-l .dibu4 p {
+          display: inline-block; }
+          .dibu-tonglang .dibu-center .dibu-tonglang-l .dibu4 p a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #929191; }
+            .dibu-tonglang .dibu-center .dibu-tonglang-l .dibu4 p a:hover {
+              color: #f10215; }
+    .dibu-tonglang .dibu-center .dibu-tonglang-r {
+      float: right;
+      margin-top: 40px;
+      width: 470px;
+      height: 114px; }
+      .dibu-tonglang .dibu-center .dibu-tonglang-r .dibu-tonglang-r-l {
+        float: left;
+        width: 234px;
+        height: 114px; }
+        .dibu-tonglang .dibu-center .dibu-tonglang-r .dibu-tonglang-r-l .dibu-tonglang-r-l-tupian {
+          float: left;
+          height: 100%;
+          width: 112px; }
+        .dibu-tonglang .dibu-center .dibu-tonglang-r .dibu-tonglang-r-l .dibu-tonglang-r-l-wenzi {
+          float: right;
+          width: 86px;
+          height: 66px;
+          margin: 25px 25px 0 0; }
+          .dibu-tonglang .dibu-center .dibu-tonglang-r .dibu-tonglang-r-l .dibu-tonglang-r-l-wenzi p {
+            color: #929191;
+            font-size: 12px; }
+      .dibu-tonglang .dibu-center .dibu-tonglang-r .dibu-tonglang-r-r {
+        float: right;
+        width: 234px;
+        height: 114px; }
+        .dibu-tonglang .dibu-center .dibu-tonglang-r .dibu-tonglang-r-r .dibu-tonglang-r-r-tupian {
+          float: left;
+          height: 100%;
+          width: 112px; }
+        .dibu-tonglang .dibu-center .dibu-tonglang-r .dibu-tonglang-r-r .dibu-tonglang-r-r-wenzi {
+          float: right;
+          width: 103px;
+          height: 66px;
+          margin: 25px 5px 0 0; }
+          .dibu-tonglang .dibu-center .dibu-tonglang-r .dibu-tonglang-r-r .dibu-tonglang-r-r-wenzi p {
+            color: #929191;
+            font-size: 12px; }
+
+.didu-tonglang2 {
+  background-color: #1e1e1e;
+  height: 38px;
+  border-top: 1px solid #ff3737; }
+  .didu-tonglang2 .didu-tonglang2-r p {
+    float: right;
+    display: block;
+    width: 200px;
+    color: #929191;
+    margin: 10px 155px 0 0px; }

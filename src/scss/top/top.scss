@@ -1,0 +1,1109 @@
+@charset "UTF-8";
+
+/* CSS document */
+
+body {
+    background-color: #fff;
+}
+
+.top {
+//  background-color: #fff;
+    //  height: 1000px;
+    .top-nav {
+        float: left;
+        width: 150px;
+        height: 180px;
+        //      background-color: red;
+        margin: 30px 20px 0 10px;
+        ul {
+            li {
+                border: 1px solid #cecdce;
+                padding-left: 28px;
+                height: 36px;
+                line-height: 36px;
+                background-color: #f3f3f3;
+                a {
+                    text-decoration: none;
+                    font-size: 18px;
+                    color: #4d4d4d;
+                }
+            } //li
+        } //ul
+    } //top-nav
+    .top-right {
+        position: relative;
+        margin-bottom: 30px;
+        float: left;
+        width:726px;
+//      height:100%;
+        //      margin-top: 30px;
+        //  电影排行开始
+        .top-ph {
+            margin-top: 30px;
+            width: 726px;
+            height: 430px;
+            h3 {
+                margin: 0;
+                color: #333333;
+            }
+            .top-ph-bottom {
+                height: 100%;
+                .top-ph-bottom-l {
+                    margin-right: 30px;
+                    float: left;
+                    background-color: #f7f7f7;
+                    width: 346px;
+                    ul {
+                        .top-ph-bottom-l-first {
+                            border-bottom: 1px dashed #e3e3e6;
+                            padding-right: 25px;
+                            .top-ph-bottom-l-rebo {
+                                display: block;
+                                width: 48px;
+                                height: 24px;
+                                background-color: #ff6d00;
+                                font-size: 12px;
+                                text-align: center;
+                                line-height: 24px;
+                            } //.top-ph-bottom-l-rebo
+                            p {
+                                span {
+                                    color: #666666;
+                                }
+                                .def {
+                                    float: right;
+                                }
+                                .sux {
+                                    margin: 0 10px;
+                                }
+                                .ph {
+                                    margin-left: 8px;
+                                }
+                            } //p
+                            div {
+                                em {
+                                    font-size: 16px;
+                                    margin: 0 28px 0 18px;
+                                    color: #125297;
+                                }
+                                a {
+                                    text-decoration: none;
+                                    color: #125297;
+                                    font-size: 16px;
+                                }
+                                span {
+                                    float: right;
+                                    color: #ff0000;
+                                    font-size: 16px;
+                                }
+                            } //div
+                        } //li
+                        .top-ph-bottom-l-li {
+                            border-bottom: 1px dashed #e3e3e6;
+                            line-height: 32px;
+                            em {
+                                font-size: 16px;
+                                margin: 0 28px 0 18px;
+                                color: #125297;
+                            }
+                            a {
+                                text-decoration: none;
+                                color: #125297;
+                                font-size: 16px;
+                            }
+                            span {
+                                float: right;
+                                color: #ff0000;
+                                font-size: 16px;
+                            }
+                        } //li
+                        .top-ph-bottom-l-bd {
+                            padding-right: 25px;
+                            line-height: 32px;
+                            a {
+                                float: right;
+                            }
+                        }
+                    } //ul
+                } //top-ph-bottom-l
+                .top-ph-bottom-r {
+                    float: left;
+                    background-color: #f7f7f7;
+                    width: 346px;
+                    ul {
+                        .top-ph-bottom-r-first {
+                            border-bottom: 1px dashed #e3e3e6;
+                            padding-right: 25px;
+                            .top-ph-bottom-r-rebo {
+                                display: block;
+                                width: 48px;
+                                height: 24px;
+                                background-color: #ff6d00;
+                                font-size: 12px;
+                                text-align: center;
+                                line-height: 24px;
+                            } //.top-ph-bottom-l-rebo
+                            p {
+                                span {
+                                    color: #666666;
+                                }
+                                .def {
+                                    float: right;
+                                }
+                                .sux {
+                                    margin: 0 10px;
+                                }
+                                .ph {
+                                    margin-left: 8px;
+                                }
+                            } //p
+                            div {
+                                em {
+                                    font-size: 16px;
+                                    margin: 0 28px 0 18px;
+                                    color: #125297;
+                                }
+                                a {
+                                    text-decoration: none;
+                                    color: #125297;
+                                    font-size: 16px;
+                                }
+                                span {
+                                    float: right;
+                                    color: #ff0000;
+                                    font-size: 16px;
+                                }
+                            } //div
+                        } //li
+                        .top-ph-bottom-r-li {
+                            border-bottom: 1px dashed #e3e3e6;
+                            line-height: 32px;
+                            padding-right: 25px;
+                            em {
+                                font-size: 16px;
+                                margin: 0 28px 0 18px;
+                                color: #125297;
+                            }
+                            a {
+                                text-decoration: none;
+                                color: #125297;
+                                font-size: 16px;
+                            }
+                            span {
+                                float: right;
+                                color: #ff0000;
+                                font-size: 16px;
+                            }
+                        } //li
+                        .top-ph-bottom-r-bd {
+                            padding-right: 25px;
+                            line-height: 32px;
+                            a {
+                                float: right;
+                            }
+                        }
+                    } //ul
+                } //top-ph-bottom-r
+            } //top-ph-bottom
+        } //top-ph
+        //  电影排行结束
+        //  电视剧排行开始
+        .top-dsj {
+            margin-top: 30px;
+            //          float: left;
+            width: 726px;
+            height: 430px;
+            h3 {
+                margin: 0;
+                color: #333333;
+            }
+            .top-dsj-bottom {
+                .top-dsj-bottom-l {
+                    margin-right: 30px;
+                    float: left;
+                    background-color: #f7f7f7;
+                    width: 346px;
+                    ul {
+                        .top-dsj-bottom-l-first {
+                            border-bottom: 1px dashed #e3e3e6;
+                            padding-right: 25px;
+                            .top-dsj-bottom-l-rebo {
+                                display: block;
+                                width: 48px;
+                                height: 24px;
+                                background-color: #ff6d00;
+                                font-size: 12px;
+                                text-align: center;
+                                line-height: 24px;
+                            } //.top-ph-bottom-l-rebo
+                            p {
+                                span {
+                                    color: #666666;
+                                }
+                                .def {
+                                    float: right;
+                                }
+                                .sux {
+                                    margin: 0 10px;
+                                }
+                                .ph {
+                                    margin-left: 8px;
+                                }
+                            } //p
+                            div {
+                                em {
+                                    font-size: 16px;
+                                    margin: 0 28px 0 18px;
+                                    color: #125297;
+                                }
+                                a {
+                                    text-decoration: none;
+                                    color: #125297;
+                                    font-size: 16px;
+                                }
+                                span {
+                                    float: right;
+                                    color: #ff0000;
+                                    font-size: 16px;
+                                }
+                            } //div
+                        } //li
+                        .top-dsj-bottom-l-li {
+                            border-bottom: 1px dashed #e3e3e6;
+                            line-height: 32px;
+                            padding-right: 25px;
+                            em {
+                                font-size: 16px;
+                                margin: 0 28px 0 18px;
+                                color: #125297;
+                            }
+                            a {
+                                text-decoration: none;
+                                color: #125297;
+                                font-size: 16px;
+                            }
+                            span {
+                                float: right;
+                                color: #ff0000;
+                                font-size: 16px;
+                            }
+                        } //li
+                        .top-dsj-bottom-l-bd {
+                            padding-right: 25px;
+                            line-height: 32px;
+                            a {
+                                float: right;
+                            }
+                        }
+                    } //ul
+                } //top-ph-bottom-l
+                .top-dsj-bottom-r {
+                    float: left;
+                    background-color: #f7f7f7;
+                    width: 346px;
+                    ul {
+                        .top-dsj-bottom-r-first {
+                            border-bottom: 1px dashed #e3e3e6;
+                            padding-right: 25px;
+                            .top-dsj-bottom-r-rebo {
+                                display: block;
+                                width: 48px;
+                                height: 24px;
+                                background-color: #ff6d00;
+                                font-size: 12px;
+                                text-align: center;
+                                line-height: 24px;
+                            } //.top-ph-bottom-l-rebo
+                            p {
+                                span {
+                                    color: #666666;
+                                }
+                                .def {
+                                    float: right;
+                                }
+                                .sux {
+                                    margin: 0 10px;
+                                }
+                                .ph {
+                                    margin-left: 8px;
+                                }
+                            } //p
+                            div {
+                                em {
+                                    font-size: 16px;
+                                    margin: 0 28px 0 18px;
+                                    color: #125297;
+                                }
+                                a {
+                                    text-decoration: none;
+                                    color: #125297;
+                                    font-size: 16px;
+                                }
+                                span {
+                                    float: right;
+                                    color: #ff0000;
+                                    font-size: 16px;
+                                }
+                            } //div
+                        } //li
+                        .top-dsj-bottom-r-li {
+                            border-bottom: 1px dashed #e3e3e6;
+                            line-height: 32px;
+                            padding-right: 25px;
+                            em {
+                                font-size: 16px;
+                                margin: 0 28px 0 18px;
+                                color: #125297;
+                            }
+                            a {
+                                text-decoration: none;
+                                color: #125297;
+                                font-size: 16px;
+                            }
+                            span {
+                                float: right;
+                                color: #ff0000;
+                                font-size: 16px;
+                            }
+                        } //li
+                        .top-dsj-bottom-r-bd {
+                            padding-right: 25px;
+                            line-height: 32px;
+                            a {
+                                float: right;
+                            }
+                        }
+                    } //ul
+                } //top-ph-bottom-r
+            } //top-ph-bottom
+        } //top-ph
+        //  电视剧排行结束
+        //  综艺排行开始
+        .top-zy {
+            margin-top: 30px;
+            //          float: left;
+            width: 726px;
+            height: 430px;
+            h3 {
+                margin: 0;
+                color: #333333;
+            }
+            .top-zy-bottom {
+                .top-zy-bottom-l {
+                    margin-right: 30px;
+                    float: left;
+                    background-color: #f7f7f7;
+                    width: 346px;
+                    ul {
+                        .top-zy-bottom-l-first {
+                            border-bottom: 1px dashed #e3e3e6;
+                            padding-right: 25px;
+                            .top-zy-bottom-l-rebo {
+                                display: block;
+                                width: 48px;
+                                height: 24px;
+                                background-color: #ff6d00;
+                                font-size: 12px;
+                                text-align: center;
+                                line-height: 24px;
+                            } //.top-ph-bottom-l-rebo
+                            p {
+                                span {
+                                    color: #666666;
+                                }
+                                .def {
+                                    float: right;
+                                }
+                                .sux {
+                                    margin: 0 10px;
+                                }
+                                .ph {
+                                    margin-left: 8px;
+                                }
+                            } //p
+                            div {
+                                em {
+                                    font-size: 16px;
+                                    margin: 0 28px 0 18px;
+                                    color: #125297;
+                                }
+                                a {
+                                    text-decoration: none;
+                                    color: #125297;
+                                    font-size: 16px;
+                                }
+                                span {
+                                    float: right;
+                                    color: #ff0000;
+                                    font-size: 16px;
+                                }
+                            } //div
+                        } //li
+                        .top-zy-bottom-l-li {
+                            border-bottom: 1px dashed #e3e3e6;
+                            line-height: 32px;
+                            padding-right: 25px;
+                            em {
+                                font-size: 16px;
+                                margin: 0 28px 0 18px;
+                                color: #125297;
+                            }
+                            a {
+                                text-decoration: none;
+                                color: #125297;
+                                font-size: 16px;
+                            }
+                            span {
+                                float: right;
+                                color: #ff0000;
+                                font-size: 16px;
+                            }
+                        } //li
+                        .top-zy-bottom-l-bd {
+                            padding-right: 25px;
+                            line-height: 32px;
+                            a {
+                                float: right;
+                            }
+                        }
+                    } //ul
+                } //top-ph-bottom-l
+                .top-zy-bottom-r {
+                    float: left;
+                    background-color: #f7f7f7;
+                    width: 346px;
+                    ul {
+                        .top-zy-bottom-r-first {
+                            border-bottom: 1px dashed #e3e3e6;
+                            padding-right: 25px;
+                            .top-zy-bottom-r-rebo {
+                                display: block;
+                                width: 48px;
+                                height: 24px;
+                                background-color: #ff6d00;
+                                font-size: 12px;
+                                text-align: center;
+                                line-height: 24px;
+                            } //.top-ph-bottom-l-rebo
+                            p {
+                                span {
+                                    color: #666666;
+                                }
+                                .def {
+                                    float: right;
+                                }
+                                .sux {
+                                    margin: 0 10px;
+                                }
+                                .ph {
+                                    margin-left: 8px;
+                                }
+                            } //p
+                            div {
+                                em {
+                                    font-size: 16px;
+                                    margin: 0 28px 0 18px;
+                                    color: #125297;
+                                }
+                                a {
+                                    text-decoration: none;
+                                    color: #125297;
+                                    font-size: 16px;
+                                }
+                                span {
+                                    float: right;
+                                    color: #ff0000;
+                                    font-size: 16px;
+                                }
+                            } //div
+                        } //li
+                        .top-zy-bottom-r-li {
+                            border-bottom: 1px dashed #e3e3e6;
+                            line-height: 32px;
+                            padding-right: 25px;
+                            em {
+                                font-size: 16px;
+                                margin: 0 28px 0 18px;
+                                color: #125297;
+                            }
+                            a {
+                                text-decoration: none;
+                                color: #125297;
+                                font-size: 16px;
+                            }
+                            span {
+                                float: right;
+                                color: #ff0000;
+                                font-size: 16px;
+                            }
+                        } //li
+                        .top-zy-bottom-r-bd {
+                            padding-right: 25px;
+                            line-height: 32px;
+                            a {
+                                float: right;
+                            }
+                        }
+                    } //ul
+                } //top-ph-bottom-r
+            } //top-ph-bottom
+        } //top-ph
+        //  综艺排行结束
+        //  动漫排行开始
+        .top-dm {
+            margin-top: 30px;
+            //          float: left;
+            width: 726px;
+            height: 430px;
+            h3 {
+                margin: 0;
+                color: #333333;
+            }
+            .top-dm-bottom {
+                .top-dm-bottom-l {
+                    margin-right: 30px;
+                    float: left;
+                    background-color: #f7f7f7;
+                    width: 346px;
+                    ul {
+                        .top-dm-bottom-l-first {
+                            border-bottom: 1px dashed #e3e3e6;
+                            padding-right: 25px;
+                            .top-dm-bottom-l-rebo {
+                                display: block;
+                                width: 48px;
+                                height: 24px;
+                                background-color: #ff6d00;
+                                font-size: 12px;
+                                text-align: center;
+                                line-height: 24px;
+                            } //.top-ph-bottom-l-rebo
+                            p {
+                                span {
+                                    color: #666666;
+                                }
+                                .def {
+                                    float: right;
+                                }
+                                .sux {
+                                    margin: 0 10px;
+                                }
+                                .ph {
+                                    margin-left: 8px;
+                                }
+                            } //p
+                            div {
+                                em {
+                                    font-size: 16px;
+                                    margin: 0 28px 0 18px;
+                                    color: #125297;
+                                }
+                                a {
+                                    text-decoration: none;
+                                    color: #125297;
+                                    font-size: 16px;
+                                }
+                                span {
+                                    float: right;
+                                    color: #ff0000;
+                                    font-size: 16px;
+                                }
+                            } //div
+                        } //li
+                        .top-dm-bottom-l-li {
+                            border-bottom: 1px dashed #e3e3e6;
+                            line-height: 32px;
+                            padding-right: 25px;
+                            em {
+                                font-size: 16px;
+                                margin: 0 28px 0 18px;
+                                color: #125297;
+                            }
+                            a {
+                                text-decoration: none;
+                                color: #125297;
+                                font-size: 16px;
+                            }
+                            span {
+                                float: right;
+                                color: #ff0000;
+                                font-size: 16px;
+                            }
+                        } //li
+                        .top-dm-bottom-l-bd {
+                            padding-right: 25px;
+                            line-height: 32px;
+                            a {
+                                float: right;
+                            }
+                        }
+                    } //ul
+                } //top-ph-bottom-l
+                .top-dm-bottom-r {
+                    float: left;
+                    background-color: #f7f7f7;
+                    width: 346px;
+                    ul {
+                        .top-dm-bottom-r-first {
+                            border-bottom: 1px dashed #e3e3e6;
+                            padding-right: 25px;
+                            .top-dm-bottom-r-rebo {
+                                display: block;
+                                width: 48px;
+                                height: 24px;
+                                background-color: #ff6d00;
+                                font-size: 12px;
+                                text-align: center;
+                                line-height: 24px;
+                            } //.top-ph-bottom-l-rebo
+                            p {
+                                span {
+                                    color: #666666;
+                                }
+                                .def {
+                                    float: right;
+                                }
+                                .sux {
+                                    margin: 0 10px;
+                                }
+                                .ph {
+                                    margin-left: 8px;
+                                }
+                            } //p
+                            div {
+                                em {
+                                    font-size: 16px;
+                                    margin: 0 28px 0 18px;
+                                    color: #125297;
+                                }
+                                a {
+                                    text-decoration: none;
+                                    color: #125297;
+                                    font-size: 16px;
+                                }
+                                span {
+                                    float: right;
+                                    color: #ff0000;
+                                    font-size: 16px;
+                                }
+                            } //div
+                        } //li
+                        .top-dm-bottom-r-li {
+                            border-bottom: 1px dashed #e3e3e6;
+                            line-height: 32px;
+                            padding-right: 25px;
+                            em {
+                                font-size: 16px;
+                                margin: 0 28px 0 18px;
+                                color: #125297;
+                            }
+                            a {
+                                text-decoration: none;
+                                color: #125297;
+                                font-size: 16px;
+                            }
+                            span {
+                                float: right;
+                                color: #ff0000;
+                                font-size: 16px;
+                            }
+                        } //li
+                        .top-dm-bottom-r-bd {
+                            padding-right: 25px;
+                            line-height: 32px;
+                            a {
+                                float: right;
+                            }
+                        }
+                    } //ul
+                } //top-ph-bottom-r
+            } //top-ph-bottom
+        } //top-ph
+        //  动漫排行结束
+        
+        //大电影排行开始
+        .top-ddy{
+            background-color: #f7f7f7;
+            display: none;
+            position:absolute;
+            top:-10px;
+            left:0;
+            margin-top:30px;
+            .top-dy-top {
+                height: 25px;
+                border-bottom: 1px solid #a9e1fc;
+            }//top-dy-top
+            .top-dy-b{
+                background-color: #8C8C8C;
+                padding-left:10px;
+                height:32px;
+                span{
+                    text-align: center;
+                    display: inline-block;
+                    width:55px;
+                    height:27px;
+                    line-height: 27px;
+                    margin-top:11px;
+//                  background-color: #fff;
+//                  border-radius: 10px;
+                }
+                .span88{
+                    background-color: #fff;
+                    border-radius: 8px;
+                    font-style:700;
+                }
+            }
+            .top-dy-bottom-r-rebo-l{
+                
+                li{
+                    span{
+                        display: inline-block;
+                        height:30px;
+                        line-height: 30px;
+//                      background-color: pink;
+                        margin-right:16px;
+                    }
+                    .top-dy-b-span1{
+                        width:50px;
+                    }
+                    .top-dy-b-span2{
+                        width:140px;
+                    }
+                    .top-dy-b-span3{
+                        width:90px;
+                    }
+                    .top-dy-b-span4{
+                        width:130px;
+                    }
+                    .top-dy-b-span5{
+                        width:160px;
+                    }
+                    .top-dy-b-span6{
+                        width:40px;
+                    }
+                }//li
+            }//ul
+            .top-dy-bottom-r-rebo-r{
+                display: none;
+                position: absolute;
+                top:67px;
+                left:0;
+                li{
+                    span{
+                        display: inline-block;
+                        height:30px;
+                        line-height: 30px;
+//                      background-color:red;
+                        margin-right:16px;
+                    }
+                    .top-dy-b-span1{
+                        width:50px;
+                    }
+                    .top-dy-b-span2{
+                        width:140px;
+                    }
+                    .top-dy-b-span3{
+                        width:90px;
+                    }
+                    .top-dy-b-span4{
+                        width:130px;
+                    }
+                    .top-dy-b-span5{
+                        width:160px;
+                    }
+                    .top-dy-b-span6{
+                        width:40px;
+                    }
+                }//li
+            }//ul
+        }//top-dy
+        //大电视剧排行开始
+        .top-ddsj{
+            background-color: #f7f7f7;
+            display: none;
+            position:absolute;
+            top:-10px;
+            left:0;
+            margin-top:30px;
+            .top-dsj-top {
+                height: 25px;
+                border-bottom: 1px solid #a9e1fc;
+            }//top-dy-top
+            .top-dsj-b{
+                background-color: #8C8C8C;
+                padding-left:10px;
+                height:32px;
+                span{
+                    text-align: center;
+                    display: inline-block;
+                    width:55px;
+                    height:27px;
+                    line-height: 27px;
+                    margin-top:11px;
+//                  background-color: #fff;
+//                  border-radius: 10px;
+                }
+                .span88{
+                    background-color: #fff;
+                    border-radius: 8px;
+                    font-style:700;
+                }
+            }
+            .top-dsj-bottom-r-rebo-l{
+                
+                li{
+                    span{
+                        display: inline-block;
+                        height:30px;
+                        line-height: 30px;
+//                      background-color: pink;
+                        margin-right:16px;
+                    }
+                    .top-dsj-b-span1{
+                        width:50px;
+                    }
+                    .top-dsj-b-span2{
+                        width:140px;
+                    }
+                    .top-dsj-b-span3{
+                        width:90px;
+                    }
+                    .top-dsj-b-span4{
+                        width:130px;
+                    }
+                    .top-dsj-b-span5{
+                        width:160px;
+                    }
+                    .top-dsj-b-span6{
+                        width:40px;
+                    }
+                }//li
+            }//ul
+            .top-dsj-bottom-r-rebo-r{
+                display: none;
+                position: absolute;
+                top:67px;
+                left:0;
+                li{
+                    span{
+                        display: inline-block;
+                        height:30px;
+                        line-height: 30px;
+//                      background-color:red;
+                        margin-right:16px;
+                    }
+                    .top-dsj-b-span1{
+                        width:50px;
+                    }
+                    .top-dsj-b-span2{
+                        width:140px;
+                    }
+                    .top-dsj-b-span3{
+                        width:90px;
+                    }
+                    .top-dsj-b-span4{
+                        width:130px;
+                    }
+                    .top-dsj-b-span5{
+                        width:160px;
+                    }
+                    .top-dsj-b-span6{
+                        width:40px;
+                    }
+                }//li
+            }//ul
+        }//top-dsj
+        //大综艺排行开始
+        background-color: #f7f7f7;
+        .top-dzy{
+            display: none;
+            position:absolute;
+            top:-10px;
+            left:0;
+            margin-top:30px;
+            .top-zy-top {
+                height: 25px;
+                border-bottom: 1px solid #a9e1fc;
+            }//top-dy-top
+            .top-zy-b{
+                background-color: #8C8C8C;
+                padding-left:10px;
+                height:32px;
+                span{
+                    text-align: center;
+                    display: inline-block;
+                    width:55px;
+                    height:27px;
+                    line-height: 27px;
+                    margin-top:11px;
+//                  background-color: #fff;
+//                  border-radius: 10px;
+                }
+                .span88{
+                    background-color: #fff;
+                    border-radius: 8px;
+                    font-style:700;
+                }
+            }
+            .top-zy-bottom-r-rebo-l{
+                
+                li{
+                    span{
+                        display: inline-block;
+                        height:30px;
+                        line-height: 30px;
+//                      background-color: pink;
+                        margin-right:16px;
+                    }
+                    .top-zy-b-span1{
+                        width:50px;
+                    }
+                    .top-zy-b-span2{
+                        width:140px;
+                    }
+                    .top-zy-b-span3{
+                        width:90px;
+                    }
+                    .top-zy-b-span4{
+                        width:130px;
+                    }
+                    .top-zy-b-span5{
+                        width:160px;
+                    }
+                    .top-zy-b-span6{
+                        width:40px;
+                    }
+                }//li
+            }//ul
+            .top-zy-bottom-r-rebo-r{
+                display: none;
+                position: absolute;
+                top:67px;
+                left:0;
+                li{
+                    span{
+                        display: inline-block;
+                        height:30px;
+                        line-height: 30px;
+//                      background-color:red;
+                        margin-right:16px;
+                    }
+                    .top-zy-b-span1{
+                        width:50px;
+                    }
+                    .top-zy-b-span2{
+                        width:140px;
+                    }
+                    .top-zy-b-span3{
+                        width:90px;
+                    }
+                    .top-zy-b-span4{
+                        width:130px;
+                    }
+                    .top-zy-b-span5{
+                        width:160px;
+                    }
+                    .top-zy-b-span6{
+                        width:40px;
+                    }
+                }//li
+            }//ul
+        }//top-zy
+        //大动漫排行开始
+        background-color: #f7f7f7;
+        .top-ddm{
+            display: none;
+            position:absolute;
+            top:-10px;
+            left:0;
+            margin-top:30px;
+            .top-dm-top {
+                height: 25px;
+                border-bottom: 1px solid #a9e1fc;
+            }//top-dy-top
+            .top-dm-b{
+                background-color: #8C8C8C;
+                padding-left:10px;
+                height:32px;
+                span{
+                    text-align: center;
+                    display: inline-block;
+                    width:55px;
+                    height:27px;
+                    line-height: 27px;
+                    margin-top:11px;
+//                  background-color: #fff;
+//                  border-radius: 10px;
+                }
+                .span88{
+                    background-color: #fff;
+                    border-radius: 8px;
+                    font-style:700;
+                }
+            }
+            .top-dm-bottom-r-rebo-l{
+                
+                li{
+                    span{
+                        display: inline-block;
+                        height:30px;
+                        line-height: 30px;
+//                      background-color: pink;
+                        margin-right:16px;
+                    }
+                    .top-dm-b-span1{
+                        width:50px;
+                    }
+                    .top-dm-b-span2{
+                        width:140px;
+                    }
+                    .top-dm-b-span3{
+                        width:90px;
+                    }
+                    .top-dm-b-span4{
+                        width:130px;
+                    }
+                    .top-dm-b-span5{
+                        width:160px;
+                    }
+                    .top-dm-b-span6{
+                        width:40px;
+                    }
+                }//li
+            }//ul
+            .top-dm-bottom-r-rebo-r{
+                display: none;
+                position: absolute;
+                top:67px;
+                left:0;
+                li{
+                    span{
+                        display: inline-block;
+                        height:30px;
+                        line-height: 30px;
+//                      background-color:red;
+                        margin-right:16px;
+                    }
+                    .top-dm-b-span1{
+                        width:50px;
+                    }
+                    .top-dm-b-span2{
+                        width:140px;
+                    }
+                    .top-dm-b-span3{
+                        width:90px;
+                    }
+                    .top-dm-b-span4{
+                        width:130px;
+                    }
+                    .top-dm-b-span5{
+                        width:160px;
+                    }
+                    .top-dm-b-span6{
+                        width:40px;
+                    }
+                }//li
+            }//ul
+        }//top-dm
+    } //top-right
+} //top
